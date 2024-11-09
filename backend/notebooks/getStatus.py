@@ -12,9 +12,9 @@ class StatusClassifier:
         self.gender: str = ""
         self.status: str = ""
 
-    def set_category(self, gender: str, month_age: int = 0, year_age: int = 0) -> None:
+    def set_category(self, is_female: bool, month_age: int = 0, year_age: int = 0) -> None:
         """Sets the gender and age for classification."""
-        self.gender = gender
+        self.gender = "Perempuan" if is_female else "Laki-laki"
         self.month_age = month_age
         self.year_age = year_age
 
@@ -90,6 +90,6 @@ class StatusClassifier:
 
 if __name__ == "__main__":
     classifier = StatusClassifier()
-    classifier.set_category("Laki-laki", year_age=4)
+    classifier.set_category(False, year_age=4)
     print(classifier.get_classification(massa_tubuh=40))
     print(classifier.get_classification(mode="stunting", tinggi_tubuh=70))

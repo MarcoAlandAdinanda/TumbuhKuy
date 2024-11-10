@@ -11,7 +11,7 @@ from pulp import LpMaximize, LpProblem, LpVariable, lpSum
 from scriptUtils import DatasetCollector
 from getStatus import StatusClassifier
 from getThreshold import NutritionThreshold
-from getChat import ChatBot
+# from getChat import ChatBot
 
 class RecepiesGenerator:
     """A class to generate optimized recipes based on user-specific nutritional requirements and budget constraints.
@@ -47,7 +47,7 @@ class RecepiesGenerator:
         self.optimized_ingredients: list[str] = []
         self.optim_total_nutrition: dict = {}
 
-        self.chat_bot = ChatBot()
+        # self.chat_bot = ChatBot()
 
     def set_info(self, is_female: bool, month_age: int = 0, year_age: int = 0, 
                  mode: str = "gizi", massa_tubuh: float = 0.0, tinggi_tubuh: float = 0.0) -> None:
@@ -119,10 +119,10 @@ class RecepiesGenerator:
         # Plot the main bars with label for legend
         bars = plt.bar(self.optim_total_nutrition.keys(), self.optim_total_nutrition.values(), color='skyblue', label='Nutrisi makanan pokok')
         
-        plt.xlabel('Nutritional Component / Price')
-        plt.ylabel('Sum')
-        plt.title('Sum of Nutritional Components and Price with Thresholds')
-        plt.xticks(rotation=45)
+        plt.xlabel('Komponen Gizi')
+        plt.ylabel('Total Kebutuhan Gizi')
+        plt.title("Optimasi Kecukupan Gizi")
+        # plt.xticks(rotation=45)
 
         # Filtered threshold dictionary
         visual_threshold = {key: value for key, value in self.user_threshold.items() if key not in ['Gender', 'Kelompok Umur', 'Berat Badan (kg)', 'Tinggi Badan (cm)']}

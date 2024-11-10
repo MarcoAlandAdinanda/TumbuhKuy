@@ -85,21 +85,6 @@ class RecepiesGenerator:
         self.optim_total_nutrition["Karbohidrat (gram)"] = self.ingredients_nutrition[self.ingredients_nutrition["Nama Bahan"].isin(self.optimized_ingredients)]["Karbohidrat (gram)"].sum()
         self.optim_total_nutrition["Serat (gram)"] = self.ingredients_nutrition[self.ingredients_nutrition["Nama Bahan"].isin(self.optimized_ingredients)]["Serat (gram)"].sum()
 
-    # def visualize_result(self):
-    #     plt.figure(figsize=(10, 6))
-    #     bars = plt.bar(self.optim_total_nutrition.keys(), self.optim_total_nutrition.values(), color='skyblue')
-    #     plt.xlabel('Nutritional Component / Price')
-    #     plt.ylabel('Sum')
-    #     plt.title('Sum of Nutritional Components and Price with Thresholds')
-    #     plt.xticks(rotation=45)
-
-    #     visual_threshold = {key: value for key, value in self.user_threshold.items() if key not in ['Gender', 'Kelompok Umur', 'Berat Badan (kg)', 'Tinggi Badan (cm)']}
-    #     # Add threshold lines for each bar
-    #     for i, (key, threshold) in enumerate(visual_threshold.items()):
-    #         plt.axhline(y=threshold, color='red', linestyle='--', xmin=i/len(self.optim_total_nutrition), xmax=(i+0.8)/len(self.optim_total_nutrition))
-    #         plt.text(i, threshold, f'{threshold:.1f}', color='red', ha='center', va='bottom')
-
-    #     plt.show()
     def visualize_result(self):
         plt.figure(figsize=(10, 6))
         

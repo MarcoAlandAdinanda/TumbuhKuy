@@ -4,13 +4,13 @@ from typing import Dict
 class NutritionThreshold:
     """Determines nutritional threshold values based on age and gender."""
 
-    def __init__(self, data_path: str = "requirements_gizi.csv") -> None:
+    def __init__(self, data_path: str = "requirements_gizi_fixed.csv") -> None:
         """Initializes the NutritionThreshold class with the dataset path.
 
         Args:
             data_path: Path to the CSV file containing nutritional requirements data.
         """
-        self.dataset = pd.read_csv(data_path)
+        self.dataset = pd.read_csv(data_path, sep=";")
         self.gender: str = ""
         self.age_category: str = ""
         self.threshold: Dict = {}

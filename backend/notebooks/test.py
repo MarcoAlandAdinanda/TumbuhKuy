@@ -1,20 +1,33 @@
-# data handling
+# Data handling
 import pandas as pd
 
-# visualization
+# Visualization
 import matplotlib.pyplot as plt
 
-# optimization tools
+# Optimization tools
 from pulp import LpMaximize, LpProblem, LpVariable, lpSum
 
-# utilities
+# Utilities
 from scriptUtils import DatasetCollector
 from getStatus import StatusClassifier
 from getThreshold import NutritionThreshold
 from getChat import ChatBot
 
 class RecepiesGenerator:
+    """A class to generate optimized recipes based on user-specific nutritional requirements and budget constraints.
+    
+    Attributes:
+        status_classifier (StatusClassifier): An instance for classifying user's nutritional status.
+        threshold_collector (NutritionThreshold): An instance to get threshold values for nutritional needs.
+        user_status (str): The nutritional status of the user.
+        user_threshold (dict): A dictionary of nutritional requirements for the user.
+        ingredient_nutritions (pd.DataFrame): DataFrame with ingredient nutritional information.
+        optimized_ingredients (list[str]): List of optimized ingredients chosen by the model.
+        optim_total_nutrition (dict): Dictionary storing the total nutritional values of optimized ingredients.
+    """
+    
     def __init__(self) -> None:
+        """Initializes RecepiesGenerator with required instances and dataset loading."""
         self.status_classifier = StatusClassifier()
         self.threshold_collector = NutritionThreshold()
         self.user_status: str = ""
@@ -38,18 +51,34 @@ class RecepiesGenerator:
 
     def set_info(self, is_female: bool, month_age: int = 0, year_age: int = 0, 
                  mode: str = "gizi", massa_tubuh: float = 0.0, tinggi_tubuh: float = 0.0) -> None:
+        """Sets user information, nutritional status, and threshold requirements.
+
+        Args:
+            is_female (bool): True if the user is female, False if male.
+            month_age (int, optional): User's age in months. Defaults to 0.
+            year_age (int, optional): User's age in years. Defaults to 0.
+            mode (str, optional): Mode for classification, defaults to "gizi".
+            massa_tubuh (float, optional): User's body weight in kg. Defaults to 0.0.
+            tinggi_tubuh (float, optional): User's height in cm. Defaults to 0.0.
+        """
         self.status_classifier.set_category(is_female=is_female, month_age=month_age, year_age=year_age)
         self.user_status = self.status_classifier.get_classification(mode=mode, massa_tubuh=massa_tubuh, tinggi_tubuh=tinggi_tubuh)
         self.user_threshold = self.threshold_collector.get_threshold(is_female=is_female, month_age=month_age, year_age=year_age)
 
     def nutrition_optim(self, max_price: int = 0, display: bool = True) -> None:
-        # initialize optim tool
+        """Optimizes ingredient selection to meet nutritional needs within budget.
+
+        Args:
+            max_price (int): Maximum allowable price for ingredients.
+            display (bool): If True, displays selected ingredients.
+        """
+        # Initialize optimization tool
         problem = LpProblem("Nutrition_Optimization", LpMaximize)
         
-        # define variables
+        # Define variables
         x = LpVariable.dicts("Ingredients", self.ingredients, cat="Binary")
 
-        # define objective function
+        # Define objective function
         problem += lpSum((self.water[i] + 
                           self.energy[i] + 
                           self.protein[i] + 
@@ -59,7 +88,7 @@ class RecepiesGenerator:
                           self.price[i]) * x[self.ingredients[i]] 
                           for i in range(len(self.ingredients))), "Total_Nutrients"
 
-        # define constraints
+        # Define constraints
         problem += lpSum(self.water[i]   * x[self.ingredients[i]] for i in range(len(self.ingredients))) <= self.user_threshold["Air (ml)"], "Min_Water_Constraint" 
         problem += lpSum(self.energy[i]  * x[self.ingredients[i]] for i in range(len(self.ingredients))) <= self.user_threshold["Energi (kal)"], "Min_Energy_Constraint" 
         problem += lpSum(self.protein[i] * x[self.ingredients[i]] for i in range(len(self.ingredients))) >= self.user_threshold["Protein (gram)"], "Min_Protein_Constraint" 
@@ -68,14 +97,13 @@ class RecepiesGenerator:
         problem += lpSum(self.fiber[i]   * x[self.ingredients[i]] for i in range(len(self.ingredients))) <= self.user_threshold["Serat (gram)"], "Min_Fiber_Constraint" 
         problem += lpSum(self.price[i]   * x[self.ingredients[i]] for i in range(len(self.ingredients))) <= max_price, "Max_Price_Constraint" 
 
-        # solving
+        # Solving
         problem.solve()
 
-        # store results
+        # Store results
         for ingredient in self.ingredients:
             if x[ingredient].value() == 1:
                 self.optimized_ingredients.append(ingredient)
-                # if display: print(f" - {ingredient}")
 
         self.optim_total_nutrition["Air (ml)"] = self.ingredient_nutritions[self.ingredient_nutritions["Nama Bahan"].isin(self.optimized_ingredients)]["Air (gram)"].sum()
         self.optim_total_nutrition["Energi (kal)"] = self.ingredient_nutritions[self.ingredient_nutritions["Nama Bahan"].isin(self.optimized_ingredients)]["Energi (kal)"].sum()
@@ -85,6 +113,7 @@ class RecepiesGenerator:
         self.optim_total_nutrition["Serat (gram)"] = self.ingredient_nutritions[self.ingredient_nutritions["Nama Bahan"].isin(self.optimized_ingredients)]["Serat (gram)"].sum()
 
     def visualize_result(self):
+        """Visualizes the nutritional content of the optimized ingredients compared to thresholds."""
         plt.figure(figsize=(10, 6))
         
         # Plot the main bars with label for legend
@@ -111,27 +140,17 @@ class RecepiesGenerator:
             
             # Draw threshold line and label
             plt.axhline(y=threshold, color='red', linestyle='--', xmin=i/len(self.optim_total_nutrition), xmax=(i+0.8)/len(self.optim_total_nutrition))
-            plt.text(bar.get_x() + bar.get_width() / 2, threshold, f'{threshold:.1f}', color='red', ha='center', va='bottom')
+            plt.text(bar.get_x() + bar.get_width() / 2, threshold, f'{threshold:.1f}', ha='center', va='bottom', color='red', fontsize=9)
 
-        # Add legend for the threshold line
-        plt.plot([], [], color='red', linestyle='--', label='Batas minimum')
-
-        # Display the legend
-        plt.legend()
+        # Show legend only once
+        plt.legend(loc='upper right', frameon=False)
 
         plt.show()
-
-    def get_recepies(self):
-        print(self.chat_bot.generate_recepies(gender=self.status_classifier.gender, 
-                                            month_age=self.status_classifier.month_age,
-                                            year_age=self.status_classifier.year_age,
-                                            ingredients=self.optimized_ingredients))
-
 
 if __name__ == "__main__":
     recepies_gen = RecepiesGenerator()
     recepies_gen.set_info(is_female=True, year_age=15, mode="gizi", massa_tubuh=50.0)
     recepies_gen.nutrition_optim(max_price=10000, display=False)
     print(recepies_gen.optimized_ingredients)
-    print(recepies_gen.get_recepies())
+    # print(recepies_gen.get_recepies())
     recepies_gen.visualize_result()

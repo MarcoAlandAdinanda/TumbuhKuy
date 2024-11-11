@@ -13,7 +13,7 @@ from getStatus import StatusClassifier
 from getThreshold import NutritionThreshold
 # from getChat import ChatBot
 
-class RecepiesGenerator:
+class IngredientsGenerator:
     """A class to generate optimized recipes based on user-specific nutritional requirements and budget constraints.
     
     Attributes:
@@ -27,7 +27,7 @@ class RecepiesGenerator:
     """
     
     def __init__(self) -> None:
-        """Initializes RecepiesGenerator with required instances and dataset loading."""
+        """Initializes IngredientsGenerator with required instances and dataset loading."""
         self.status_classifier = StatusClassifier()
         self.threshold_collector = NutritionThreshold()
         self.user_status: str = ""
@@ -148,7 +148,7 @@ class RecepiesGenerator:
         plt.show()
 
 if __name__ == "__main__":
-    recepies_gen = RecepiesGenerator()
+    recepies_gen = IngredientsGenerator()
     recepies_gen.set_info(is_female=True, year_age=15, mode="gizi", massa_tubuh=50.0)
     recepies_gen.nutrition_optim(max_price=10000, display=False)
     print(recepies_gen.optimized_ingredients)

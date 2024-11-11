@@ -153,4 +153,9 @@ if __name__ == "__main__":
     recepies_gen.nutrition_optim(max_price=10000, display=False)
     print(recepies_gen.optimized_ingredients)
     # print(recepies_gen.get_recepies())
+    holder = ""
+    for ingredient in recepies_gen.optimized_ingredients:
+        holder = holder + ingredient + "--"
+
+    print(holder)
     recepies_gen.visualize_result()

@@ -15,9 +15,10 @@ class RecipesGenerator:
         )
 
         self.prompt_template = """
-                            Berikan list 5 resep masakan dengan hanya menggunakan bahan baku yang diberikan dan hanya boleh menambah bumbu saja.
+                            Berikan list 3 resep masakan dengan hanya menggunakan bahan baku yang diberikan dan hanya boleh menambah bumbu saja.
                             Resep ditujukan untuk anak usia {} tahun {} bulan, 
                             dengan bahan baku: {}
+                            kategori hanya terdapat: [manis, asin, gurih, pedas, asam, segar, creamy]
                             Gunakan skema JSON berikut:
                                 Recipe = {{"nama_resep": str,
                                           "kategori": str, 
@@ -64,7 +65,7 @@ if __name__ == "__main__":
 
     ingredients_gen = IngredientsGenerator()
     ingredients_gen.set_info(is_female=True, year_age=12, month_age=4, mode="gizi", massa_tubuh=50.0)
-    ingredients_gen.nutrition_optim(max_price=10000, display=False)
+    ingredients_gen.nutrition_optim(max_price=100000, display=False)
 
     # ingredients = "--".join(ingredients_gen.optimized_ingredients)
     ingredients = ingredients_gen.optimized_ingredients
@@ -72,5 +73,5 @@ if __name__ == "__main__":
     print(ingredients)
     print(recipes_gen.prompt_template)
     response = recipes_gen.get_recipes(ingredients=ingredients, year_age=15)
-    
-    print(response[0]["nama_resep"])
+    print(len(response))
+    print(response)

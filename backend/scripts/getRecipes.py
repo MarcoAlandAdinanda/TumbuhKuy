@@ -67,11 +67,8 @@ if __name__ == "__main__":
     ingredients_gen.set_info(is_female=True, year_age=12, month_age=4, mode="gizi", massa_tubuh=50.0)
     ingredients_gen.nutrition_optim(max_price=100000, display=False)
 
-    # ingredients = "--".join(ingredients_gen.optimized_ingredients)
     ingredients = ingredients_gen.optimized_ingredients
     recipes_gen = RecipesGenerator()
-    print(ingredients)
-    print(recipes_gen.prompt_template)
     response = recipes_gen.get_recipes(ingredients=ingredients, year_age=15)
     print(len(response))
     print(response)

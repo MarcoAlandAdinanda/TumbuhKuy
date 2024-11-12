@@ -1,4 +1,4 @@
-import typing_extensions as typing
+import ast
 import google.generativeai as genai
 
 GEMINI_API = "AIzaSyCNXzq5P3ly4yFX1IDo4qqfgmtSO7K9Xfc"
@@ -27,7 +27,7 @@ class RecipesGenerator:
                             Return a `list[Recipe]`
                             """
         
-    def get_recipes(self, ingredients: str, month_age: int = 0, year_age: int = 0) -> str:
+    def get_recipes(self, ingredients: list, month_age: int = 0, year_age: int = 0) -> list[dict]:
         """Generates recipes based on given ingredients and target age group.
 
         Args:
@@ -36,26 +36,28 @@ class RecipesGenerator:
             year_age (int): The age in years of the target user. Default is 0.
 
         Returns:
-            str: JSON formatted list of recipes.
+            list[dict]: JSON formatted list of recipes.
         """
+        ingredients = "--".join(ingredients)
         prompt = self.prompt_template.format(year_age, month_age, ingredients)
-        return self.model.generate_content(prompt).text
+        response = self.model.generate_content(prompt).text
+        list_recipes = ast.literal_eval(response)
+        return list_recipes
 
 
 if __name__ == "__main__":
-    import ast
+    
     from getIngredients import IngredientsGenerator
 
     ingredients_gen = IngredientsGenerator()
-    ingredients_gen.set_info(is_female=True, year_age=15, mode="gizi", massa_tubuh=50.0)
+    ingredients_gen.set_info(is_female=True, year_age=12, month_age=4, mode="gizi", massa_tubuh=50.0)
     ingredients_gen.nutrition_optim(max_price=10000, display=False)
 
-    ingredients = "--".join(ingredients_gen.optimized_ingredients)
-
+    # ingredients = "--".join(ingredients_gen.optimized_ingredients)
+    ingredients = ingredients_gen.optimized_ingredients
     recipes_gen = RecipesGenerator()
     print(ingredients)
     print(recipes_gen.prompt_template)
     response = recipes_gen.get_recipes(ingredients=ingredients, year_age=15)
-    test_list = ast.literal_eval(response)
-    print(test_list)
-    print(type(test_list[0]))
+    print(len(response))
+    print(response[0])

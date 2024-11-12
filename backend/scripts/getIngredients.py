@@ -150,7 +150,7 @@ class IngredientsGenerator:
 if __name__ == "__main__":
     recepies_gen = IngredientsGenerator()
     recepies_gen.set_info(is_female=True, year_age=15, mode="gizi", massa_tubuh=50.0)
-    recepies_gen.nutrition_optim(max_price=10000, display=False)
+    recepies_gen.nutrition_optim(max_price=10000)
     print(recepies_gen.optimized_ingredients)
     # print(recepies_gen.get_recepies())
     holder = ""

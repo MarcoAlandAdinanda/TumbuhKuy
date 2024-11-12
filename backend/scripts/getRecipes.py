@@ -40,9 +40,22 @@ class RecipesGenerator:
         """
         ingredients = "--".join(ingredients)
         prompt = self.prompt_template.format(year_age, month_age, ingredients)
-        response = self.model.generate_content(prompt).text
-        list_recipes = ast.literal_eval(response)
-        return list_recipes
+        # response = self.model.generate_content(prompt).text
+        # list_recipes = ast.literal_eval(response)
+
+        success_status: bool = False
+        while not success_status:
+            try:
+                # prompt = self.prompt_template.format(year_age, month_age, ingredients)
+                response = self.model.generate_content(prompt).text
+                list_recipes = ast.literal_eval(response)
+                check_json_ = list_recipes[0] # check values
+                success_status = True
+                return list_recipes
+            except:
+                print('retrying...')
+
+        # return list_recipes
 
 
 if __name__ == "__main__":
@@ -59,5 +72,5 @@ if __name__ == "__main__":
     print(ingredients)
     print(recipes_gen.prompt_template)
     response = recipes_gen.get_recipes(ingredients=ingredients, year_age=15)
-    print(len(response))
-    print(response[0])
+    
+    print(response[0]["nama_resep"])

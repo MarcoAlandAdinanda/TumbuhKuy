@@ -1,13 +1,12 @@
-from flask import Flask, jsonify, request
-from apiUtils import set_scr_path
+from flask import Blueprint, jsonify, request
+from .apiUtils import set_scr_path
 set_scr_path()  # set system path to scripts directory
 
 from getStatus import StatusClassifier
 
-# Initialize Flask app
-app = Flask(__name__)
+classify_status_bp = Blueprint("classify_status", __name__)
 
-@app.route("/classify_status", methods=["POST"])
+@classify_status_bp.route("/classify_status", methods=["POST"])
 def classify_status():
     # Get JSON data from the request
     data = request.get_json()
@@ -51,6 +50,3 @@ def classify_status():
 
     # Return the classification result as JSON
     return jsonify(classification=classification)
-
-if __name__ == "__main__":
-    app.run()

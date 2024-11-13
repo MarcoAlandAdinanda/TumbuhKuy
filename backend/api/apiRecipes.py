@@ -1,14 +1,14 @@
-from flask import Flask, jsonify, request
-from apiUtils import set_scr_path
+from flask import Blueprint, jsonify, request
+from .apiUtils import set_scr_path
 set_scr_path()  # set system path to scripts directory
 
 from getIngredients import IngredientsGenerator
 from getRecipes import RecipesGenerator
 
 # Initialize Flask app
-app = Flask(__name__)
+generate_recipes_bp = Blueprint("generate_recipes", __name__)
 
-@app.route("/generate_recipes", methods=["POST"])
+@generate_recipes_bp.route("/generate_recipes", methods=["POST"])
 def generate_recipes():
     # Get JSON data from the request
     data = request.get_json()

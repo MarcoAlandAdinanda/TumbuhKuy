@@ -1,13 +1,13 @@
-from flask import Flask, jsonify, request
-from apiUtils import set_scr_path
+from flask import Blueprint, jsonify, request
+from .apiUtils import set_scr_path
 set_scr_path()  # set system path to scripts directory
 
 from getThreshold import NutritionThreshold
 
 # Initialize Flask app
-app = Flask(__name__)
+get_nutrition_threshold_bp = Blueprint("get_nutrition_threshold", __name__)
 
-@app.route("/nutrition_threshold", methods=["POST"])
+@get_nutrition_threshold_bp.route("/nutrition_threshold", methods=["POST"])
 def get_nutrition_threshold():
     # Get JSON data from the request
     data = request.get_json()
@@ -29,6 +29,3 @@ def get_nutrition_threshold():
 
     # Return the threshold data as JSON
     return jsonify(threshold=threshold)
-
-if __name__ == "__main__":
-    app.run()

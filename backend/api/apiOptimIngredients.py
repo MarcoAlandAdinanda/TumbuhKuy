@@ -1,14 +1,14 @@
-from flask import Flask, jsonify, request
-from apiUtils import set_scr_path
+from flask import Blueprint, jsonify, request
+from .apiUtils import set_scr_path
 set_scr_path()  # set system path to scripts directory
 
 from getIngredients import IngredientsGenerator
 
 # Initialize Flask app
-app = Flask(__name__)
+optimized_ingredients_bp = Blueprint("optimized_ingredients", __name__)
 
-@app.route("/optimized_ingredients", methods=["POST"])
-def index():
+@optimized_ingredients_bp.route("/optimized_ingredients", methods=["POST"])
+def optimized_ingredients():
     # Get JSON data from the request
     data = request.get_json()
 
@@ -34,6 +34,3 @@ def index():
 
     # Return JSON response
     return jsonify(message=optimized_ingredients)
-
-if __name__ == "__main__":
-    app.run()

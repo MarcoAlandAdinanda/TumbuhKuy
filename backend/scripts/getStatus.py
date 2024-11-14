@@ -55,8 +55,8 @@ class StatusClassifier:
                     (self.dataset_gizi["Tahun"] == self.year_age) &
                     (self.dataset_gizi["Bulan"] == self.month_age)
                 ]
-                
-                top_equation = massa_tubuh - self.selected_classifier["Median"].item()
+                imt = massa_tubuh / tinggi_tubuh**2
+                top_equation = imt - self.selected_classifier["Median"].item()
                 if top_equation >= 0:
                     z_score = top_equation / (
                         self.selected_classifier["+1 SD"].item() - self.selected_classifier["Median"].item())

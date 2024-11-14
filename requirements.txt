@@ -1,0 +1,7 @@
+pandas 
+numpy
+matplotlib
+pulp
+google-generativeai
+flask
+flask-cors

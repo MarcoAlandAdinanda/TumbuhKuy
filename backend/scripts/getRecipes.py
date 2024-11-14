@@ -15,10 +15,10 @@ class RecipesGenerator:
         )
 
         self.prompt_template = """
-                            Berikan list 3 resep masakan dengan hanya menggunakan bahan baku yang diberikan dan hanya boleh menambah bumbu saja.
+                            Berikan list 5 resep masakan dengan hanya menggunakan bahan baku yang diberikan dan hanya boleh menambah bumbu saja.
                             Resep ditujukan untuk anak usia {} tahun {} bulan, 
                             dengan bahan baku: {}
-                            kategori hanya terdapat: [manis, asin, gurih, pedas, asam, segar, creamy]
+                            kategori hanya terdapat: [manis, asin, gurih, pedas, asam, segar, creamy].
                             Gunakan skema JSON berikut:
                                 Recipe = {{"nama_resep": str,
                                           "kategori": str, 

@@ -1,398 +1,659 @@
-Kategori,Nama Bahan,Air (gram),Energi (kal),Protein (gram),Lemak (gram),Karbohidrat (gram),Serat (gram),Harga (Rp.)
-Daging,"Anak sapi, daging, gemuk, segar",620,184,188,140,0,0,28000
-Daging,"Anak sapi, daging, kurus, segar",690,174,196,100,0,0,20000
-Daging,"Anak sapi, daging, sedang, segar",680,190,191,120,0,0,65000
-Daging,"Angsa, daging, segar",511,349,164,315,0,0,17000
-Daging,"Ayam, daging, segar",559,298,182,250,0,0,16000
-Daging,"Ayam, dideh/darah, segar",820,75,138,19,7,0,5000
-Daging,"Ayam, hati, segar",534,261,274,161,16,0,23000
-Daging,"Bebek (itik), daging, segar",543,321,160,286,0,0,20000
-Daging,"Bebek alabio, daging, segar",570,303,113,270,37,0,30000
-Daging,"Belibis, daging, segar",713,131,202,43,28,0,80000
-Daging,"Burung, sarang, segar",248,281,375,3,321,0,100000
-Daging,"Domba, daging, gemuk, segar",558,317,157,277,0,0,35000
-Daging,"Domba, daging, kurus, segar",663,202,171,148,0,0,25000
-Daging,"Domba, ginjal, segar",778,100,166,33,10,0,13000
-Daging,"Kambing, daging, segar",703,149,166,92,0,0,50000
-Daging,"Kelinci, daging, segar",743,142,169,78,0,0,35000
-Daging,"Kerbau, daging, segar",800,79,187,5,0,0,25000
-Daging,"Kuda, daging, segar",760,113,181,41,9,0,500000
-Daging,"Sapi, babat, segar",767,108,176,42,0,0,18000
-Daging,"Sapi, daging, gemuk, segar",600,273,175,220,0,0,12000
-Daging,"Sapi, daging, kurus, segar",690,174,196,100,0,0,25000
-Daging,"Sapi, daging, lemak, sedang, segar",660,201,188,140,0,0,15000
-Daging,"Sapi, daleman, segar",701,183,120,144,14,0,10000
-Daging,"Sapi, dideh/darah",756,98,219,11,0,0,5000
-Daging,"Sapi, ginjal, segar",749,137,150,81,9,0,40000
-Daging,"Sapi, keleponan, segar",838,84,105,46,2,0,10000
-Daging,"Sapi, liver, segar",697,132,197,32,60,0,30000
-Daging,"Sapi, otak, segar",789,123,104,86,8,0,18000
-Daging,"Sapi, usus, segar",767,126,140,72,15,0,60000
-Daging,Ulat sagu segar,659,241,58,216,58,28,6000
-Daging,"Belut, segar",815,70,146,8,10,0,30000
-Daging,"Belut,laut, segar",795,93,128,15,61,0,25000
-Daging,"Cumi-cumi, segar",822,75,161,7,1,0,28000
-Daging,"Ikan bader, segar",660,193,190,130,0,0,12000
-Daging,"Ikan balong, segar",765,107,165,39,15,0,15000
-Daging,"Ikan bambangan, segar",737,112,200,13,37,0,7000
-Daging,"Ikan bandeng, segar",740,123,200,48,0,0,19000
-Daging,"Ikan banjar, segar",735,111,194,9,48,0,7500
-Daging,"Ikan baronang, segar",800,78,145,6,37,0,15000
-Daging,"Ikan batung, segar",757,115,145,46,42,0,22000
-Daging,"Ikan baung, segar",749,123,151,55,33,0,15000
-Daging,"Ikan bawal, segar",780,91,190,17,0,0,18000
-Daging,"Ikan Belida, segar",792,80,147,14,22,0,20000
-Daging,"Ikan beunteur, segar",700,109,170,40,0,0,11000
-Daging,"Ikan biawan, segar",791,90,149,25,21,0,12000
-Daging,"Ikan bili, segar",683,88,142,7,62,0,5000
-Daging,"Ikan bubara, segar",755,100,147,24,49,0,10000
-Daging,"Ikan bulan-bulan, segar",667,134,255,13,50,0,15000
-Daging,"Ikan cakalang, segar",730,107,196,7,55,0,10000
-Daging,"Ikan cakalang, hati, segar",734,120,113,39,100,0,35000
-Daging,"Ikan cakalang, jantung, segar",763,116,112,12,102,0,55000
-Daging,"Ikan cakalang, perut, segar",791,86,102,11,87,0,12000
-Daging,"Ikan daun, segar",786,101,115,41,46,0,10000
-Daging,"Ikan ekor kuning, segar",741,108,223,12,21,0,30000
-Daging,"Ikan gabus, segar",796,80,162,5,26,0,5000
-Daging,"Ikan heu, segar",756,81,100,16,66,0,15000
-Daging,"Ikan hitam, segar",782,101,103,37,67,0,15000
-Daging,"Ikan hiu, segar",857,57,107,3,22,0,40000
-Daging,"Ikan kacangan, segar",807,77,156,9,16,0,1500
-Daging,"Ikan kakap, segar",770,92,200,7,0,0,35000
-Daging,"Ikan kakatua, segar",797,82,114,12,64,0,60000
-Daging,"Ikan kalaban, segar",803,77,164,7,13,0,50000
-Daging,"Ikan kamera (kakap merah), segar",785,86,197,8,0,0,75000
-Daging,"Ikan kapar, segar",742,132,170,67,8,0,9000
-Daging,"Ikan kawalinya, segar",761,110,126,42,54,0,16000
-Daging,"Ikan keru-keru, segar",772,93,165,21,8,0,3000
-Daging,"Ikan kima, segar",821,70,108,7,52,0,250000
-Daging,"Ikan lais, segar",650,161,119,115,24,0,7000
-Daging,"Ikan layang, segar",740,109,220,17,0,0,18000
-Daging,"Ikan layur, segar",801,82,180,10,4,0,12000
-Daging,"Ikan lehoma, segar",776,90,204,9,0,0,40000
-Daging,"Ikan lemuru, segar",760,112,200,30,0,0,12000
-Daging,"Ikan lidah, segar",783,104,156,32,20,0,18000
-Daging,"Ikan malalugis, segar",756,99,206,14,9,0,15000
-Daging,"Ikan mamar merah, segar",750,115,153,40,44,0,25000
-Daging,"Ikan mas, segar",800,86,160,20,0,0,15000
-Daging,"Ikan mayong, segar",782,97,179,20,4,0,15000
-Daging,"Ikan mujahir, segar",797,89,187,10,0,0,6000
-Daging,"Ikan nasu metti, segar",653,154,168,50,105,0,12000
-Daging,"Ikan oci, kembung, segar",714,125,213,34,22,0,10000
-Daging,"Ikan paling, segar",580,303,140,270,0,0,18000
-Daging,"Ikan papuyu/ betok, segar",750,120,143,49,46,0,10000
-Daging,"Ikan patin, segar",744,132,170,66,11,0,30000
-Daging,"Ikan pomo, segar",683,147,225,52,26,0,25000
-Daging,"Ikan puntin, segar",811,76,144,11,22,0,15000
-Daging,"Ikan saluang, segar",748,113,139,49,34,0,15000
-Daging,"Ikan sarden, segar",727,109,199,18,34,0,10000
-Daging,"Ikan selar, segar",754,100,188,22,0,0,14500
-Daging,"Ikan sepat, segar",788,84,152,6,47,0,15000
-Daging,"Ikan sidat, segar",713,81,114,19,38,0,75000
-Daging,"Ikan sunu, segar",755,111,133,34,67,0,25000
-Daging,"Ikan tahuman, segar",774,88,159,9,41,0,15000
-Daging,"Ikan tarmon, segar",767,96,195,11,20,0,5000
-Daging,"Ikan telan, segar",753,95,158,7,65,0,20000
-Daging,"Ikan tembang, segar",650,204,160,150,0,0,8500
-Daging,"Ikan tempahas, segar",789,101,151,41,10,0,7000
-Daging,"Ikan terbang, segar",761,98,196,17,10,0,25000
-Daging,"Ikan teri, segar",800,74,103,14,41,0,15000
-Daging,"Ikan titang, segar",788,82,174,4,23,0,50000
-Daging,"Ikan tongkol, segar",747,100,137,15,80,0,15000
-Daging,"Ikan turi, segar",769,96,192,20,2,0,14000
-Daging,"Keong, segar",810,64,120,10,20,0,10000
-Daging,"Kepiting, segar",681,151,138,38,141,0,60000
-Daging,"Kerang, segar",782,101,144,26,39,0,12000
-Daging,"Kodok, segar",819,73,164,3,0,0,150000
-Daging,"Kuro, segar",799,87,160,22,10,0,35000
-Daging,"Lokan, segar",809,217,110,17,51,0,35000
-Daging,"Rajungan, segar",802,76,121,20,24,0,45000
-Daging,"Rebon, udang kecil, segar",790,81,162,12,7,0,10000
-Daging,Rusip,585,110,115,20,117,0,43000
-Daging,"Udang galah, segar",790,81,165,3,30,0,55000
-Daging,"Udang, besar, segar",855,56,114,6,12,0,45000
-Daging,"Udang, segar",750,91,210,2,1,0,25000
-Telur,"Telur ayam kampung, segar",731,174,108,140,12,0,25000
+﻿Kategori,Nama Bahan,Air (gram),Energi (kal),Protein (gram),Lemak (gram),Karbohidrat (gram),Serat (gram),Harga (Rp.)
+Daging dan Ikan,"Anak sapi, daging, gemuk, segar",620,184,188,140,0,0,14000
+Daging dan Ikan,"Anak sapi, daging, kurus, segar",690,174,196,100,0,0,14000
+Daging dan Ikan,"Anak sapi, daging, sedang, segar",680,190,191,120,0,0,14000
+Daging dan Ikan,"Angsa, daging, segar",511,349,164,315,0,0,6000
+Daging dan Ikan,"Ayam, daging, segar",559,298,182,250,0,0,4000
+Daging dan Ikan,"Ayam, dideh/darah, segar",820,75,138,19,7,0,4000
+Daging dan Ikan,"Ayam, hati, segar",534,261,274,161,16,0,5000
+Daging dan Ikan,"Bebek (itik), daging, segar",543,321,160,286,0,0,6000
+Daging dan Ikan,"Bebek alabio, daging, segar",570,303,113,270,37,0,6000
+Daging dan Ikan,"Belibis, daging, segar",713,131,202,43,28,0,6000
+Daging dan Ikan,"Burung, sarang, segar",248,281,375,3,321,0,4000
+Daging dan Ikan,"Domba, daging, gemuk, segar",558,317,157,277,0,0,13000
+Daging dan Ikan,"Domba, daging, kurus, segar",663,202,171,148,0,0,13000
+Daging dan Ikan,"Domba, ginjal, segar",778,100,166,33,10,0,8000
+Daging dan Ikan,"Kambing, daging, segar",703,149,166,92,0,0,13000
+Daging dan Ikan,"Kelinci, daging, segar",743,142,169,78,0,0,11000
+Daging dan Ikan,"Kerbau, daging, segar",800,79,187,5,0,0,13000
+Daging dan Ikan,"Kuda, daging, segar",760,113,181,41,9,0,11000
+Daging dan Ikan,"Sapi, babat, segar",767,108,176,42,0,0,8000
+Daging dan Ikan,"Sapi, daging, gemuk, segar",600,273,175,220,0,0,14000
+Daging dan Ikan,"Sapi, daging, kurus, segar",690,174,196,100,0,0,14000
+Daging dan Ikan,"Sapi, daging, lemak, sedang, segar",660,201,188,140,0,0,14000
+Daging dan Ikan,"Sapi, daleman, segar",701,183,120,144,14,0,8000
+Daging dan Ikan,"Sapi, dideh/darah",756,98,219,11,0,0,4000
+Daging dan Ikan,"Sapi, ginjal, segar",749,137,150,81,9,0,8000
+Daging dan Ikan,"Sapi, keleponan, segar",838,84,105,46,2,0,8000
+Daging dan Ikan,"Sapi, liver, segar",697,132,197,32,60,0,8000
+Daging dan Ikan,"Sapi, otak, segar",789,123,104,86,8,0,8000
+Daging dan Ikan,"Sapi, usus, segar",767,126,140,72,15,0,8000
+Daging dan Ikan,Ulat sagu segar,659,241,58,216,58,28,6000
+Daging dan Ikan,"Belut, segar",815,70,146,8,10,0,6000
+Daging dan Ikan,"Belut,laut, segar",795,93,128,15,61,0,6000
+Daging dan Ikan,"Cumi-cumi, segar",822,75,161,7,1,0,7000
+Daging dan Ikan,"Ikan bader, segar",660,193,190,130,0,0,4000
+Daging dan Ikan,"Ikan balong, segar",765,107,165,39,15,0,4000
+Daging dan Ikan,"Ikan bambangan, segar",737,112,200,13,37,0,4000
+Daging dan Ikan,"Ikan bandeng, segar",740,123,200,48,0,0,4000
+Daging dan Ikan,"Ikan banjar, segar",735,111,194,9,48,0,5000
+Daging dan Ikan,"Ikan baronang, segar",800,78,145,6,37,0,5000
+Daging dan Ikan,"Ikan batung, segar",757,115,145,46,42,0,5000
+Daging dan Ikan,"Ikan baung, segar",749,123,151,55,33,0,5000
+Daging dan Ikan,"Ikan bawal, segar",780,91,190,17,0,0,5000
+Daging dan Ikan,"Ikan Belida, segar",792,80,147,14,22,0,5000
+Daging dan Ikan,"Ikan beunteur, segar",700,109,170,40,0,0,5000
+Daging dan Ikan,"Ikan biawan, segar",791,90,149,25,21,0,5000
+Daging dan Ikan,"Ikan bili, segar",683,88,142,7,62,0,5000
+Daging dan Ikan,"Ikan bubara, segar",755,100,147,24,49,0,5000
+Daging dan Ikan,"Ikan bulan-bulan, segar",667,134,255,13,50,0,5000
+Daging dan Ikan,"Ikan cakalang, segar",730,107,196,7,55,0,4000
+Daging dan Ikan,"Ikan cakalang, hati, segar",734,120,113,39,100,0,5000
+Daging dan Ikan,"Ikan cakalang, jantung, segar",763,116,112,12,102,0,5000
+Daging dan Ikan,"Ikan cakalang, perut, segar",791,86,102,11,87,0,5000
+Daging dan Ikan,"Ikan daun, segar",786,101,115,41,46,0,5000
+Daging dan Ikan,"Ikan ekor kuning, segar",741,108,223,12,21,0,5000
+Daging dan Ikan,"Ikan gabus, segar",796,80,162,5,26,0,6000
+Daging dan Ikan,"Ikan heu, segar",756,81,100,16,66,0,5000
+Daging dan Ikan,"Ikan hitam, segar",782,101,103,37,67,0,5000
+Daging dan Ikan,"Ikan hiu, segar",857,57,107,3,22,0,6000
+Daging dan Ikan,"Ikan kacangan, segar",807,77,156,9,16,0,5000
+Daging dan Ikan,"Ikan kakap, segar",770,92,200,7,0,0,5000
+Daging dan Ikan,"Ikan kakatua, segar",797,82,114,12,64,0,5000
+Daging dan Ikan,"Ikan kalaban, segar",803,77,164,7,13,0,5000
+Daging dan Ikan,"Ikan kamera (kakap merah), segar",785,86,197,8,0,0,5000
+Daging dan Ikan,"Ikan kapar, segar",742,132,170,67,8,0,5000
+Daging dan Ikan,"Ikan kawalinya, segar",761,110,126,42,54,0,5000
+Daging dan Ikan,"Ikan keru-keru, segar",772,93,165,21,8,0,5000
+Daging dan Ikan,"Ikan kima, segar",821,70,108,7,52,0,5000
+Daging dan Ikan,"Ikan lais, segar",650,161,119,115,24,0,5000
+Daging dan Ikan,"Ikan layang, segar",740,109,220,17,0,0,5000
+Daging dan Ikan,"Ikan layur, segar",801,82,180,10,4,0,5000
+Daging dan Ikan,"Ikan lehoma, segar",776,90,204,9,0,0,5000
+Daging dan Ikan,"Ikan lemuru, segar",760,112,200,30,0,0,5000
+Daging dan Ikan,"Ikan lidah, segar",783,104,156,32,20,0,5000
+Daging dan Ikan,"Ikan malalugis, segar",756,99,206,14,9,0,5000
+Daging dan Ikan,"Ikan mamar merah, segar",750,115,153,40,44,0,5000
+Daging dan Ikan,"Ikan mas, segar",800,86,160,20,0,0,5000
+Daging dan Ikan,"Ikan mayong, segar",782,97,179,20,4,0,5000
+Daging dan Ikan,"Ikan mujahir, segar",797,89,187,10,0,0,3500
+Daging dan Ikan,"Ikan nasu metti, segar",653,154,168,50,105,0,5000
+Daging dan Ikan,"Ikan oci, kembung, segar",714,125,213,34,22,0,4000
+Daging dan Ikan,"Ikan paling, segar",580,303,140,270,0,0,5000
+Daging dan Ikan,"Ikan papuyu/ betok, segar",750,120,143,49,46,0,5000
+Daging dan Ikan,"Ikan patin, segar",744,132,170,66,11,0,3500
+Daging dan Ikan,"Ikan pomo, segar",683,147,225,52,26,0,5000
+Daging dan Ikan,"Ikan puntin, segar",811,76,144,11,22,0,5000
+Daging dan Ikan,"Ikan saluang, segar",748,113,139,49,34,0,5000
+Daging dan Ikan,"Ikan sarden, segar",727,109,199,18,34,0,5000
+Daging dan Ikan,"Ikan selar, segar",754,100,188,22,0,0,5000
+Daging dan Ikan,"Ikan sepat, segar",788,84,152,6,47,0,5000
+Daging dan Ikan,"Ikan sidat, segar",713,81,114,19,38,0,5000
+Daging dan Ikan,"Ikan sunu, segar",755,111,133,34,67,0,5000
+Daging dan Ikan,"Ikan tahuman, segar",774,88,159,9,41,0,5000
+Daging dan Ikan,"Ikan tarmon, segar",767,96,195,11,20,0,5000
+Daging dan Ikan,"Ikan telan, segar",753,95,158,7,65,0,5000
+Daging dan Ikan,"Ikan tembang, segar",650,204,160,150,0,0,5000
+Daging dan Ikan,"Ikan tempahas, segar",789,101,151,41,10,0,5000
+Daging dan Ikan,"Ikan terbang, segar",761,98,196,17,10,0,5000
+Daging dan Ikan,"Ikan teri, segar",800,74,103,14,41,0,5000
+Daging dan Ikan,"Ikan titang, segar",788,82,174,4,23,0,5000
+Daging dan Ikan,"Ikan tongkol, segar",747,100,137,15,80,0,4000
+Daging dan Ikan,"Ikan turi, segar",769,96,192,20,2,0,5000
+Daging dan Ikan,"Keong, segar",810,64,120,10,20,0,3000
+Daging dan Ikan,"Kepiting, segar",681,151,138,38,141,0,6000
+Daging dan Ikan,"Kerang, segar",782,101,144,26,39,0,3000
+Daging dan Ikan,"Kodok, segar",819,73,164,3,0,0,5000
+Daging dan Ikan,"Kuro, segar",799,87,160,22,10,0,5000
+Daging dan Ikan,"Lokan, segar",809,217,110,17,51,0,3000
+Daging dan Ikan,"Rajungan, segar",802,76,121,20,24,0,6000
+Daging dan Ikan,"Rebon, udang kecil, segar",790,81,162,12,7,0,5000
+Daging dan Ikan,Rusip,585,110,115,20,117,0,5000
+Daging dan Ikan,"Udang galah, segar",790,81,165,3,30,0,7000
+Daging dan Ikan,"Udang, besar, segar",855,56,114,6,12,0,7000
+Daging dan Ikan,"Udang, segar",750,91,210,2,1,0,7000
+Telur,"Telur ayam kampung, segar",731,174,108,140,12,0,3000
 Telur,"Telur ayam ras, segar",743,154,124,108,7,0,2500
-Telur,"Telur ayam ras, bagian kuning, segar",494,355,163,319,7,0,4500
-Telur,"Telur Ayam ras, bagian putih, segar",878,50,108,0,8,0,17000
-Telur,"Telur bebek alabio, segar",700,187,118,142,30,0,15000
-Telur,"Telur bebek, bagian kuning, segar",470,386,170,350,8,0,13500
-Telur,"Telur bebek, bagian putih, segar",880,54,110,0,8,0,35000
-Telur,"Telur bebek tambak, segar",677,187,109,124,79,0,2500
-Telur,"Telur burung maleo, segar",360,436,265,363,4,0,150000
-Telur,"Telur burung puyuh,",798,116,107,70,16,0,12000
-Sayuran,"Akar tonjong, segar",867,45,11,4,108,12,6000
-Sayuran,"Ale,toge, segar",906,37,44,5,38,17,6000
-Sayuran,"Andaliman, segar",742,99,46,10,180,85,25000
-Sayuran,"Andewi, segar",918,226,16,2,53,41,4000
-Sayuran,"Bakung, segar",925,27,20,2,42,38,120000
-Sayuran,"Baligo, segar",961,15,4,2,30,4,1500
-Sayuran,"Bawang bombay, segar",875,43,14,2,103,20,3000
-Sayuran,"Bayam, segar",945,16,9,4,29,7,7000
-Sayuran,"Bayam merah, segar",885,41,22,8,63,22,2500
-Sayuran,"Bit, segar",876,41,16,1,96,26,18000
-Sayuran,Buah kelor,895,38,15,2,75,32,10000
-Sayuran,Buah merah,812,87,26,27,131,40,15000
-Sayuran,"Buncis, segar",896,34,24,3,72,19,12000
-Sayuran,"Bunga pepaya, segar",873,45,26,3,81,16,10000
-Sayuran,"Bunga turi, segar",904,42,20,11,61,33,5000
-Sayuran,"Caisin, segar",936,20,17,4,34,12,3000
-Sayuran,"Daun bangun-bangun, segar",925,27,13,6,40,10,5000
-Sayuran,"Daun bawang merah, segar",891,41,20,3,78,21,9000
-Sayuran,"Daun bebuas, segar",879,41,27,10,73,21,15000
-Sayuran,"Daun belem, segar",846,50,44,14,78,19,1500
-Sayuran,"Daun gandaria, segar",810,63,31,3,140,21,2500
-Sayuran,"Daun gedi besar, segar",840,58,29,7,100,33,1850
-Sayuran,"Daun gedi kecil, segar",837,61,32,7,104,34,1000
-Sayuran,"Daun gelang, segar",903,30,13,7,58,13,12000
-Sayuran,"Daun gunda bali, segar",864,50,46,9,70,14,6000
-Sayuran,"Daun gunda serang, segar",846,62,42,9,92,13,30000
-Sayuran,"Daun jambu mete muda, segar",780,78,46,5,162,30,10000
-Sayuran,"Daun jampang, segar",889,34,38,5,53,14,5000
-Sayuran,"Daun jawaw seluang, segar",772,93,50,13,153,39,5000
-Sayuran,"Daun jonghe, segar",914,27,21,7,44,20,5000
-Sayuran,"Daun kacang ma, segar",891,36,29,6,68,18,15000
-Sayuran,"Daun kacang panjang, segar",897,30,31,3,58,17,4500
-Sayuran,"Daun kasbi/singkong karet, segar",803,92,40,36,109,58,1000
-Sayuran,"Daun katuk, segar",810,59,64,10,99,15,6500
-Sayuran,"Daun kecipir, segar",850,52,50,5,85,0,8000
-Sayuran,"Daun kedondong, segar",810,59,35,3,134,107,5000
-Sayuran,"Daun kelor, segar",755,92,51,16,143,82,5000
-Sayuran,"Daun kemang, segar",850,43,55,3,75,84,42500
-Sayuran,"Daun kenikir, segar",876,45,37,5,66,58,4000
-Sayuran,"Daun kesum, segar",848,48,45,8,91,16,5000
+Telur,"Telur ayam ras, bagian kuning, segar",494,355,163,319,7,0,3000
+Telur,"Telur Ayam ras, bagian putih, segar",878,50,108,0,8,0,1000
+Telur,"Telur bebek alabio, segar",700,187,118,142,30,0,3500
+Telur,"Telur bebek, bagian kuning, segar",470,386,170,350,8,0,4000
+Telur,"Telur bebek, bagian putih, segar",880,54,110,0,8,0,1500
+Telur,"Telur bebek tambak, segar",677,187,109,124,79,0,3500
+Telur,"Telur burung maleo, segar",360,436,265,363,4,0,100000
+Telur,"Telur burung puyuh,",798,116,107,70,16,0,4000
+Sayuran,"Akar tonjong, segar",867,45,11,4,108,12,3000
+Sayuran,"Ale,toge, segar",906,37,44,5,38,17,2500
+Sayuran,"Andaliman, segar",742,99,46,10,180,85,5000
+Sayuran,"Andewi, segar",918,226,16,2,53,41,3000
+Sayuran,"Bakung, segar",925,27,20,2,42,38,3000
+Sayuran,"Baligo, segar",961,15,4,2,30,4,3000
+Sayuran,"Bawang bombay, segar",875,43,14,2,103,20,4500
+Sayuran,"Bayam, segar",945,16,9,4,29,7,3000
+Sayuran,"Bayam merah, segar",885,41,22,8,63,22,3000
+Sayuran,"Bit, segar",876,41,16,1,96,26,4500
+Sayuran,Buah kelor,895,38,15,2,75,32,5000
+Sayuran,Buah merah,812,87,26,27,131,40,5000
+Sayuran,"Buncis, segar",896,34,24,3,72,19,3500
+Sayuran,"Bunga pepaya, segar",873,45,26,3,81,16,4000
+Sayuran,"Bunga turi, segar",904,42,20,11,61,33,4000
+Sayuran,"Caisin, segar",936,20,17,4,34,12,2500
+Sayuran,"Daun bangun-bangun, segar",925,27,13,6,40,10,3000
+Sayuran,"Daun bawang merah, segar",891,41,20,3,78,21,3000
+Sayuran,"Daun bebuas, segar",879,41,27,10,73,21,3500
+Sayuran,"Daun belem, segar",846,50,44,14,78,19,3000
+Sayuran,"Daun gandaria, segar",810,63,31,3,140,21,3500
+Sayuran,"Daun gedi besar, segar",840,58,29,7,100,33,3000
+Sayuran,"Daun gedi kecil, segar",837,61,32,7,104,34,3000
+Sayuran,"Daun gelang, segar",903,30,13,7,58,13,2500
+Sayuran,"Daun gunda bali, segar",864,50,46,9,70,14,3000
+Sayuran,"Daun gunda serang, segar",846,62,42,9,92,13,3000
+Sayuran,"Daun jambu mete muda, segar",780,78,46,5,162,30,3000
+Sayuran,"Daun jampang, segar",889,34,38,5,53,14,3000
+Sayuran,"Daun jawaw seluang, segar",772,93,50,13,153,39,3000
+Sayuran,"Daun jonghe, segar",914,27,21,7,44,20,3000
+Sayuran,"Daun kacang ma, segar",891,36,29,6,68,18,3500
+Sayuran,"Daun kacang panjang, segar",897,30,31,3,58,17,3500
+Sayuran,"Daun kasbi/singkong karet, segar",803,92,40,36,109,58,2500
+Sayuran,"Daun katuk, segar",810,59,64,10,99,15,3500
+Sayuran,"Daun kecipir, segar",850,52,50,5,85,0,3500
+Sayuran,"Daun kedondong, segar",810,59,35,3,134,107,3000
+Sayuran,"Daun kelor, segar",755,92,51,16,143,82,3500
+Sayuran,"Daun kemang, segar",850,43,55,3,75,84,3000
+Sayuran,"Daun kenikir, segar",876,45,37,5,66,58,3000
+Sayuran,"Daun kesum, segar",848,48,45,8,91,16,3500
 Sayuran,"Daun kol sawi, segar",931,22,21,5,36,9,2500
-Sayuran,"Daun koro, segar",910,23,30,3,37,0,5000
-Sayuran,"Daun kubis, segar",862,51,25,11,80,34,2500
-Sayuran,"Daun kumak, segar",952,14,13,3,23,9,2000
-Sayuran,"Daun labu siam, segar",897,34,40,4,47,35,4500
-Sayuran,"Daun labu waluh/kuning, segar",897,34,36,6,45,29,4000
-Sayuran,"Daun lamtoro, segar",740,87,83,18,144,33,500
-Sayuran,"Daun leilem, segar",794,76,28,2,158,31,4500
-Sayuran,"Daun leunca, segar",850,49,47,5,81,0,5000
-Sayuran,"Daun lobak, segar",900,30,23,4,58,32,3500
-Sayuran,"Daun lompong talas, segar",872,44,30,8,74,33,2000
-Sayuran,"Daun mangkokan, segar",820,57,37,3,118,0,15000
-Sayuran,"Daun matel ambon, segar",771,71,68,16,115,46,10000
-Sayuran,"Daun mengkudu, segar",809,65,40,17,114,39,5000
-Sayuran,"Daun ndusuk, segar",560,166,17,5,388,107,20000
-Sayuran,"Daun oyong, segar",930,22,10,1,53,20,3500
-Sayuran,"Daun pakis, segar",868,39,45,4,69,20,4000
-Sayuran,"Daun pakis longgiho, segar",895,54,22,36,31,21,7000
-Sayuran,"Daun pakis wambateu, segar",869,53,34,12,72,48,15000
-Sayuran,"Daun paku, segar",888,29,34,1,65,43,4000
-Sayuran,"Daun pangi,segar",761,104,39,6,179,83,3000
+Sayuran,"Daun koro, segar",910,23,30,3,37,0,3000
+Sayuran,"Daun kubis, segar",862,51,25,11,80,34,3000
+Sayuran,"Daun kumak, segar",952,14,13,3,23,9,3000
+Sayuran,"Daun labu siam, segar",897,34,40,4,47,35,3000
+Sayuran,"Daun labu waluh/kuning, segar",897,34,36,6,45,29,3000
+Sayuran,"Daun lamtoro, segar",740,87,83,18,144,33,3500
+Sayuran,"Daun leilem, segar",794,76,28,2,158,31,3500
+Sayuran,"Daun leunca, segar",850,49,47,5,81,0,3500
+Sayuran,"Daun lobak, segar",900,30,23,4,58,32,3000
+Sayuran,"Daun lompong talas, segar",872,44,30,8,74,33,3000
+Sayuran,"Daun mangkokan, segar",820,57,37,3,118,0,3000
+Sayuran,"Daun matel ambon, segar",771,71,68,16,115,46,3000
+Sayuran,"Daun mengkudu, segar",809,65,40,17,114,39,3500
+Sayuran,"Daun ndusuk, segar",560,166,17,5,388,107,3000
+Sayuran,"Daun oyong, segar",930,22,10,1,53,20,3000
+Sayuran,"Daun pakis, segar",868,39,45,4,69,20,3000
+Sayuran,"Daun pakis longgiho, segar",895,54,22,36,31,21,3000
+Sayuran,"Daun pakis wambateu, segar",869,53,34,12,72,48,3000
+Sayuran,"Daun paku, segar",888,29,34,1,65,43,3000
+Sayuran,"Daun pangi,segar",761,104,39,6,179,83,3500
 Sayuran,"Daun pare, segar",873,49,27,10,84,30,3000
-Sayuran,"Daun pepaya, segar",754,87,80,20,119,15,2000
-Sayuran,"Daun pohpohan, segar",874,37,25,8,69,26,5000
-Sayuran,"Daun selasih, segar",831,62,40,5,105,53,10000
-Sayuran,"Daun semanggi, segar",847,45,44,5,85,19,1500
-Sayuran,"Daun simpur, segar",862,53,32,25,76,16,5000
+Sayuran,"Daun pepaya, segar",754,87,80,20,119,15,3000
+Sayuran,"Daun pohpohan, segar",874,37,25,8,69,26,3500
+Sayuran,"Daun selasih, segar",831,62,40,5,105,53,3500
+Sayuran,"Daun semanggi, segar",847,45,44,5,85,19,3500
+Sayuran,"Daun simpur, segar",862,53,32,25,76,16,3500
 Sayuran,"Daun singkil, segar",809,68,20,10,152,33,3000
 Sayuran,"Daun singkong, segar",844,50,62,11,71,24,2500
-Sayuran,"Daun singkong ambon, segar",580,144,127,12,252,102,35000
-Sayuran,"Daun singkong ampenan, segar",844,50,62,11,71,24,3000
-Sayuran,"Daun singkong kopang, segar",811,74,63,7,107,46,5000
-Sayuran,"Daun sintrong, segar",885,36,26,9,61,17,5000
-Sayuran,"Daun talas, segar",811,59,30,4,135,30,3500
-Sayuran,"Daun tespong, segar",810,70,29,3,139,23,5000
-Sayuran,"Daun ubi kuning, segar",835,62,37,3,111,64,2000
-Sayuran,"Daun ubi merah, segar",844,48,30,3,108,14,4000
-Sayuran,"Daun ubi putih, segar",875,46,28,2,82,48,1500
-Sayuran,"Daun ubi tinta, segar",851,55,17,1,119,76,15000
-Sayuran,"Eceng, segar",930,19,10,2,38,18,200
-Sayuran,"Gambas (oyong), segar",945,19,8,2,41,13,1500
-Sayuran,"Genjer, segar",900,35,17,2,77,25,2000
-Sayuran,"Jagung muda / semi, segar",895,35,22,1,74,19,4000
-Sayuran,Jamur encik,248,296,94,11,620,0,15000
-Sayuran,"Jamur kuping, kering",149,294,160,9,646,465,20000
-Sayuran,"Jamur kuping, segar",937,21,38,6,9,51,15000
-Sayuran,"Jamur merang, segar",915,30,35,2,40,24,12000
-Sayuran,"Jamur tiram, segar",925,30,19,1,55,36,3000
-Sayuran,Jamur sagu,913,48,19,32,28,10,2000
-Sayuran,"Jantung pisang, segar",902,32,12,3,71,32,5000
-Sayuran,"Jengkol, segar",527,192,54,3,407,15,2000
-Sayuran,"Jotang, segar",890,34,19,3,71,35,8000
-Sayuran,"Kabau, segar",672,130,67,3,252,29,100000
-Sayuran,"Kacang mekah, polong, segar",936,22,11,10,34,11,6000
-Sayuran,"Kacang panjang, segar",918,31,23,1,53,27,5000
-Sayuran,Kacang ranti polong,885,37,31,2,79,25,5000
-Sayuran,"Kalakai, segar",899,38,24,2,66,58,15000
-Sayuran,"Kangkung, segar",910,28,34,7,39,20,2000
+Sayuran,"Daun singkong ambon, segar",580,144,127,12,252,102,2500
+Sayuran,"Daun singkong ampenan, segar",844,50,62,11,71,24,2500
+Sayuran,"Daun singkong kopang, segar",811,74,63,7,107,46,2500
+Sayuran,"Daun sintrong, segar",885,36,26,9,61,17,3000
+Sayuran,"Daun talas, segar",811,59,30,4,135,30,3000
+Sayuran,"Daun tespong, segar",810,70,29,3,139,23,3000
+Sayuran,"Daun ubi kuning, segar",835,62,37,3,111,64,3000
+Sayuran,"Daun ubi merah, segar",844,48,30,3,108,14,3000
+Sayuran,"Daun ubi putih, segar",875,46,28,2,82,48,3000
+Sayuran,"Daun ubi tinta, segar",851,55,17,1,119,76,3000
+Sayuran,"Eceng, segar",930,19,10,2,38,18,3000
+Sayuran,"Gambas (oyong), segar",945,19,8,2,41,13,2500
+Sayuran,"Genjer, segar",900,35,17,2,77,25,3000
+Sayuran,"Jagung muda / semi, segar",895,35,22,1,74,19,2500
+Sayuran,Jamur encik,248,296,94,11,620,0,4000
+Sayuran,"Jamur kuping, kering",149,294,160,9,646,465,5000
+Sayuran,"Jamur kuping, segar",937,21,38,6,9,51,4000
+Sayuran,"Jamur merang, segar",915,30,35,2,40,24,4500
+Sayuran,"Jamur tiram, segar",925,30,19,1,55,36,4000
+Sayuran,Jamur sagu,913,48,19,32,28,10,4000
+Sayuran,"Jantung pisang, segar",902,32,12,3,71,32,3500
+Sayuran,"Jengkol, segar",527,192,54,3,407,15,5000
+Sayuran,"Jotang, segar",890,34,19,3,71,35,3000
+Sayuran,"Kabau, segar",672,130,67,3,252,29,3000
+Sayuran,"Kacang mekah, polong, segar",936,22,11,10,34,11,3000
+Sayuran,"Kacang panjang, segar",918,31,23,1,53,27,3500
+Sayuran,Kacang ranti polong,885,37,31,2,79,25,3000
+Sayuran,"Kalakai, segar",899,38,24,2,66,58,3000
+Sayuran,"Kangkung, segar",910,28,34,7,39,20,2500
 Sayuran,Kangkung tondano,885,43,18,2,84,43,2500
-Sayuran,"Kapri muda, segar",868,45,33,2,90,18,3500
-Sayuran,Karawila,937,25,23,2,35,21,5000
-Sayuran,"Kecipir muda, segar",904,32,29,2,58,55,8000
-Sayuran,"Kecombrang, segar",900,34,9,10,67,26,15000
-Sayuran,"Kembang turi, segar",874,51,18,6,96,50,4500
-Sayuran,"Kerokot, segar",930,26,17,4,38,10,5000
-Sayuran,"Ketimun, segar",979,8,2,2,14,3,16000
-Sayuran,"Ketimun krai, segar",968,10,5,2,20,6,4000
-Sayuran,"Ketimun madura, segar",971,9,5,1,19,7,12000
-Sayuran,"Komak, segar",743,99,33,1,212,103,50000
-Sayuran,Kool kembang,917,25,24,2,49,16,15000
-Sayuran,"Koro kerupuk, polong",672,128,83,7,221,0,35000
-Sayuran,"Koro wedus, polong",880,46,30,3,79,33,25000
-Sayuran,"Kucai, segar",863,45,22,3,103,48,4000
-Sayuran,"Kucai muda (Lokio), segar",860,42,38,6,78,49,6000
-Sayuran,Kulit melinjo,719,111,45,11,207,50,8000
-Sayuran,"Kundur, segar",940,22,4,2,47,13,6000
-Sayuran,"Labu air, segar",950,19,6,2,38,6,3000
+Sayuran,"Kapri muda, segar",868,45,33,2,90,18,3000
+Sayuran,Karawila,937,25,23,2,35,21,3000
+Sayuran,"Kecipir muda, segar",904,32,29,2,58,55,3500
+Sayuran,"Kecombrang, segar",900,34,9,10,67,26,4000
+Sayuran,"Kembang turi, segar",874,51,18,6,96,50,4000
+Sayuran,"Kerokot, segar",930,26,17,4,38,10,3000
+Sayuran,"Ketimun, segar",979,8,2,2,14,3,2500
+Sayuran,"Ketimun krai, segar",968,10,5,2,20,6,2500
+Sayuran,"Ketimun madura, segar",971,9,5,1,19,7,2500
+Sayuran,"Komak, segar",743,99,33,1,212,103,3000
+Sayuran,Kool kembang,917,25,24,2,49,16,3500
+Sayuran,"Koro kerupuk, polong",672,128,83,7,221,0,3000
+Sayuran,"Koro wedus, polong",880,46,30,3,79,33,3000
+Sayuran,"Kucai, segar",863,45,22,3,103,48,3000
+Sayuran,"Kucai muda (Lokio), segar",860,42,38,6,78,49,3500
+Sayuran,Kulit melinjo,719,111,45,11,207,50,3000
+Sayuran,"Kundur, segar",940,22,4,2,47,13,3000
+Sayuran,"Labu air, segar",950,19,6,2,38,6,2500
 Sayuran,"Labu kuning, segar",866,51,17,5,100,27,2500
-Sayuran,"Labu siam, segar",923,30,6,1,67,62,3000
-Sayuran,"Labu waluh, segar",912,32,11,1,66,5,5000
-Sayuran,"Lantar, segar",912,34,22,3,55,29,22500
-Sayuran,"Lobak, segar",941,21,9,1,42,14,5000
-Sayuran,"Lumai/Leunca, segar",905,38,11,3,76,20,7000
-Sayuran,"Melinjo, segar",800,66,50,7,133,0,6000
-Sayuran,Mostarda metan -sawi,914,33,23,5,47,18,15000
-Sayuran,"Nangka muda, segar",854,57,20,4,113,83,3000
-Sayuran,"Paria putih, segar",944,19,10,4,36,13,12000
-Sayuran,"Pepare ular, segar",951,19,6,1,39,10,35000
-Sayuran,"Pepaya muda, segar",923,29,21,1,49,21,2500
-Sayuran,"Petai, segar",772,92,54,11,152,20,6000
-Sayuran,"Peterseli, segar",839,53,37,10,90,0,20000
-Sayuran,"Pucuk lumai/daun leunca, segar",910,33,45,4,28,0,900
+Sayuran,"Labu siam, segar",923,30,6,1,67,62,2500
+Sayuran,"Labu waluh, segar",912,32,11,1,66,5,2500
+Sayuran,"Lantar, segar",912,34,22,3,55,29,3000
+Sayuran,"Lobak, segar",941,21,9,1,42,14,3000
+Sayuran,"Lumai/Leunca, segar",905,38,11,3,76,20,3000
+Sayuran,"Melinjo, segar",800,66,50,7,133,0,3000
+Sayuran,Mostarda metan -sawi,914,33,23,5,47,18,3000
+Sayuran,"Nangka muda, segar",854,57,20,4,113,83,2500
+Sayuran,"Paria putih, segar",944,19,10,4,36,13,3500
+Sayuran,"Pepare ular, segar",951,19,6,1,39,10,3000
+Sayuran,"Pepaya muda, segar",923,29,21,1,49,21,3000
+Sayuran,"Petai, segar",772,92,54,11,152,20,5000
+Sayuran,"Peterseli, segar",839,53,37,10,90,0,4500
+Sayuran,"Pucuk lumai/daun leunca, segar",910,33,45,4,28,0,3000
 Sayuran,"Putri malu, segar",802,76,36,3,146,71,3000
-Sayuran,"Rebung, segar",933,25,8,1,53,97,2500
-Sayuran,"Rimbang, segar",808,75,16,6,158,100,12000
-Sayuran,Rumput laut,870,41,14,3,81,22,1500
+Sayuran,"Rebung, segar",933,25,8,1,53,97,3000
+Sayuran,"Rimbang, segar",808,75,16,6,158,100,3000
+Sayuran,Rumput laut,870,41,14,3,81,22,4000
 Sayuran,"Sawi, segar",922,28,23,3,40,25,3000
-Sayuran,"Sawi putih / pecai, segar",966,9,10,1,17,8,2200
-Sayuran,"Sawi taiwan, segar",918,30,19,5,44,27,3000
-Sayuran,"Sawi tanah, segar",949,19,13,2,29,22,1400
+Sayuran,"Sawi putih / pecai, segar",966,9,10,1,17,8,3500
+Sayuran,"Sawi taiwan, segar",918,30,19,5,44,27,3500
+Sayuran,"Sawi tanah, segar",949,19,13,2,29,22,3000
 Sayuran,"Selada, segar",948,18,12,2,29,18,3500
-Sayuran,"Selada air, segar",933,17,31,2,22,7,3000
-Sayuran,"Seledri, segar",930,23,10,1,46,20,8000
-Sayuran,"Taoge, segar",904,34,37,12,43,11,1500
-Sayuran,"Taoge kacang kedelai, segar",810,76,90,26,64,7,5000
-Sayuran,"Taoge kacang tunggak, segar",880,40,50,2,58,26,1000
-Sayuran,"Tebu terubuk (lilin), segar",910,30,46,4,30,8,15000
-Sayuran,"Tekokak, segar",890,34,20,1,79,49,5000
-Sayuran,"Tekokak, kering",123,302,83,17,726,212,55000
-Sayuran,"Terong, segar",927,28,11,2,55,21,4500
-Sayuran,"Terong asam, segar",905,37,20,4,63,32,6000
-Sayuran,"Terung belanda, segar",873,52,21,11,86,14,6000
-Sayuran,"Terung bengkulu, segar",866,52,11,4,112,32,3500
-Sayuran,"Terong hintalo, segar",892,45,19,8,75,51,5000
-Sayuran,Terung panjang,918,25,21,1,53,5,650
-Sayuran,"Tomat, air (sari), segar",940,20,10,2,35,4,4000
-Sayuran,"Tomat merah, segar",929,24,13,5,47,15,2000
-Sayuran,"Tomat muda, segar",930,24,20,7,33,18,5500
+Sayuran,"Selada air, segar",933,17,31,2,22,7,3500
+Sayuran,"Seledri, segar",930,23,10,1,46,20,4500
+Sayuran,"Taoge, segar",904,34,37,12,43,11,2500
+Sayuran,"Taoge kacang kedelai, segar",810,76,90,26,64,7,3000
+Sayuran,"Taoge kacang tunggak, segar",880,40,50,2,58,26,3000
+Sayuran,"Tebu terubuk (lilin), segar",910,30,46,4,30,8,3500
+Sayuran,"Tekokak, segar",890,34,20,1,79,49,3000
+Sayuran,"Tekokak, kering",123,302,83,17,726,212,4000
+Sayuran,"Terong, segar",927,28,11,2,55,21,3000
+Sayuran,"Terong asam, segar",905,37,20,4,63,32,3000
+Sayuran,"Terung belanda, segar",873,52,21,11,86,14,3500
+Sayuran,"Terung bengkulu, segar",866,52,11,4,112,32,3000
+Sayuran,"Terong hintalo, segar",892,45,19,8,75,51,3000
+Sayuran,Terung panjang,918,25,21,1,53,5,3000
+Sayuran,"Tomat, air (sari), segar",940,20,10,2,35,4,3000
+Sayuran,"Tomat merah, segar",929,24,13,5,47,15,3000
+Sayuran,"Tomat muda, segar",930,24,20,7,33,18,3000
 Sayuran,"Uceng/ bunga melinjo, segar",795,82,58,13,117,48,3000
 Sayuran,"Umbut kelapa, segar",893,39,20,2,72,25,3000
-Sayuran,Umbut rotan,905,34,24,3,55,22,150000
-Sayuran,"Wortel, segar",899,36,10,6,79,10,4500
-Buah,"Alpukat, segar",843,85,9,65,77,0,10000
-Buah,"Anggur hutan, segar",923,30,5,2,68,12,6000
-Buah,"Apel malang, segar",859,57,5,4,128,8,5000
-Buah,"Apel, segar",841,58,3,4,149,26,5000
-Buah,"Arbai, segar",899,37,8,5,83,0,18000
-Buah,"Belimbing, segar",900,36,4,4,88,32,5000
-Buah,"Biwah, segar",871,51,3,1,121,7,8000
-Buah,"Buah atung, segar",920,23,8,2,52,0,2000
-Buah,"Buah kelenting, segar",739,110,14,21,214,0,2000
-Buah,"Buah kom, segar",337,264,40,11,596,90,1500
-Buah,"Buah mentega (Bisbul), segar",890,39,7,2,97,20,2000
-Buah,"Buah Naga Merah, segar",857,71,17,31,91,32,4500
-Buah,"Buah Naga Putih, segar",866,56,8,10,109,32,14000
-Buah,"Buah negri, segar",857,55,12,1,122,52,5000
-Buah,"Buah nona, segar",715,101,17,6,252,28,6000
-Buah,"Buah rotan, segar",794,78,6,3,182,0,1500
-Buah,"Buah rukam, segar",713,113,8,3,268,77,10000
+Sayuran,Umbut rotan,905,34,24,3,55,22,3000
+Sayuran,"Wortel, segar",899,36,10,6,79,10,4000
+Buah,"Alpukat, segar",843,85,9,65,77,0,5000
+Buah,"Anggur hutan, segar",923,30,5,2,68,12,5500
+Buah,"Apel malang, segar",859,57,5,4,128,8,4500
+Buah,"Apel, segar",841,58,3,4,149,26,4500
+Buah,"Arbai, segar",899,37,8,5,83,0,5000
+Buah,"Belimbing, segar",900,36,4,4,88,32,4000
+Buah,"Biwah, segar",871,51,3,1,121,7,4500
+Buah,"Buah atung, segar",920,23,8,2,52,0,5500
+Buah,"Buah kelenting, segar",739,110,14,21,214,0,5000
+Buah,"Buah kom, segar",337,264,40,11,596,90,5000
+Buah,"Buah mentega (Bisbul), segar",890,39,7,2,97,20,5500
+Buah,"Buah Naga Merah, segar",857,71,17,31,91,32,5000
+Buah,"Buah Naga Putih, segar",866,56,8,10,109,32,5000
+Buah,"Buah negri, segar",857,55,12,1,122,52,5500
+Buah,"Buah nona, segar",715,101,17,6,252,28,5500
+Buah,"Buah rotan, segar",794,78,6,3,182,0,5000
+Buah,"Buah rukam, segar",713,113,8,3,268,77,5000
 Buah,"Buah ruruhi, segar",930,29,21,7,36,26,5000
-Buah,"Buah tuppa, segar",825,67,4,2,159,0,10000
-Buah,"Carica papaya, segar",934,24,19,2,37,10,4500
+Buah,"Buah tuppa, segar",825,67,4,2,159,0,5500
+Buah,"Carica papaya, segar",934,24,19,2,37,10,4000
 Buah,"Cempedak, segar",670,116,30,4,286,34,5000
-Buah,"Duku, segar",820,63,10,2,161,43,6500
-Buah,"Durian, segar",650,134,25,30,280,35,10000
-Buah,"Duwet, segar",802,80,5,6,182,9,8000
-Buah,"Embacang, segar",725,98,14,2,254,19,20000
-Buah,"Encung asam, segar",730,122,35,45,175,93,18000
-Buah,"Erbis, segar",800,70,6,0,189,77,20000
-Buah,Gandaria masak,808,68,7,1,180,22,10000
-Buah,"Gatep, segar",527,191,45,15,397,134,10000
-Buah,"Jambu air, segar",870,46,6,2,118,21,1000
-Buah,Jambu biji,860,49,9,3,122,24,500
-Buah,Jambu bj putih tdk brbj,828,61,9,3,154,45,6000
-Buah,"Jambu bol, segar",871,49,23,2,96,35,8000
-Buah,"Jambu monyet, segar",826,64,7,6,158,12,8500
-Buah,"Jeruk bali, segar",863,48,6,2,124,8,15000
-Buah,"Jeruk banjar, segar",845,61,8,2,141,54,2000
-Buah,Jeruk garut-keprok,873,44,8,3,109,16,6500
-Buah,"Jeruk Kalamansi, segar",902,39,3,3,89,23,6000
+Buah,"Duku, segar",820,63,10,2,161,43,4500
+Buah,"Durian, segar",650,134,25,30,280,35,6000
+Buah,"Duwet, segar",802,80,5,6,182,9,5000
+Buah,"Embacang, segar",725,98,14,2,254,19,5000
+Buah,"Encung asam, segar",730,122,35,45,175,93,5000
+Buah,"Erbis, segar",800,70,6,0,189,77,5000
+Buah,Gandaria masak,808,68,7,1,180,22,5500
+Buah,"Gatep, segar",527,191,45,15,397,134,5000
+Buah,"Jambu air, segar",870,46,6,2,118,21,4500
+Buah,Jambu biji,860,49,9,3,122,24,4500
+Buah,Jambu bj putih tdk brbj,828,61,9,3,154,45,4500
+Buah,"Jambu bol, segar",871,49,23,2,96,35,4500
+Buah,"Jambu monyet, segar",826,64,7,6,158,12,5000
+Buah,"Jeruk bali, segar",863,48,6,2,124,8,5500
+Buah,"Jeruk banjar, segar",845,61,8,2,141,54,5000
+Buah,Jeruk garut-keprok,873,44,8,3,109,16,5000
+Buah,"Jeruk Kalamansi, segar",902,39,3,3,89,23,5500
 Buah,"Jeruk manis, segar",872,45,9,2,112,14,5000
-Buah,"Jeruk nipis, segar",889,44,5,2,100,4,2500
-Buah,"Jeruk ragi, segar",876,49,7,2,111,5,12000
-Buah,"Kawista, segar",718,120,35,25,208,46,8000
-Buah,"Kedondong masak, segar",880,46,10,1,103,26,2500
-Buah,"Kedondong, segar",878,47,5,2,104,27,2000
-Buah,"Kelapa hutan, kering",60,623,20,521,365,153,6000
-Buah,"Kelapa muda, daging, segar",833,68,10,9,140,0,15000
-Buah,"Kemang, segar",865,48,10,2,119,17,15000
+Buah,"Jeruk nipis, segar",889,44,5,2,100,4,4500
+Buah,"Jeruk ragi, segar",876,49,7,2,111,5,5500
+Buah,"Kawista, segar",718,120,35,25,208,46,5500
+Buah,"Kedondong masak, segar",880,46,10,1,103,26,5000
+Buah,"Kedondong, segar",878,47,5,2,104,27,5000
+Buah,"Kelapa hutan, kering",60,623,20,521,365,153,5000
+Buah,"Kelapa muda, daging, segar",833,68,10,9,140,0,4500
+Buah,"Kemang, segar",865,48,10,2,119,17,5000
 Buah,"Kesemek, segar",782,78,8,4,200,6,5000
-Buah,"Kokosan, segar",850,86,16,2,130,14,1000
-Buah,"Kranji, segar",201,315,21,14,735,36,12000
-Buah,"Langsat, segar",841,56,9,2,143,14,7000
+Buah,"Kokosan, segar",850,86,16,2,130,14,5000
+Buah,"Kranji, segar",201,315,21,14,735,36,5500
+Buah,"Langsat, segar",841,56,9,2,143,14,4500
 Buah,"Lemon, segar",922,34,5,8,62,1,5000
-Buah,"Lontar, segar",930,27,4,2,60,16,3500
-Buah,"Mangga, segar",866,52,7,0,123,16,10000
-Buah,"Mangga benggala, segar",844,63,24,4,124,58,4000
-Buah,"Mangga gedung, segar",874,44,7,2,112,16,10000
-Buah,"Mangga golek, segar",822,63,5,2,167,23,7000
-Buah,"Mangga harumanis, segar",866,46,4,2,119,17,6000
-Buah,"Mangga indramayu, segar",802,72,8,2,187,25,1500
-Buah,"Mangga kopek, segar",845,56,4,2,146,20,7000
-Buah,"Mangga kwini, segar",786,86,7,5,198,65,4000
-Buah,"Mangga manalagi, segar",665,133,10,1,321,118,6000
+Buah,"Lontar, segar",930,27,4,2,60,16,5000
+Buah,"Mangga, segar",866,52,7,0,123,16,5000
+Buah,"Mangga benggala, segar",844,63,24,4,124,58,5000
+Buah,"Mangga gedung, segar",874,44,7,2,112,16,5000
+Buah,"Mangga golek, segar",822,63,5,2,167,23,5000
+Buah,"Mangga harumanis, segar",866,46,4,2,119,17,5000
+Buah,"Mangga indramayu, segar",802,72,8,2,187,25,5000
+Buah,"Mangga kopek, segar",845,56,4,2,146,20,5000
+Buah,"Mangga kwini, segar",786,86,7,5,198,65,5000
+Buah,"Mangga manalagi, segar",665,133,10,1,321,118,5000
 Buah,"Mangga muda, segar",837,59,5,4,151,0,5000
-Buah,"Manggis, segar",830,63,6,6,156,15,4500
+Buah,"Manggis, segar",830,63,6,6,156,15,5000
 Buah,"Markisa, segar",647,144,35,12,298,114,5500
-Buah,"Matoa, segar",765,90,12,1,211,5,10000
-Buah,"Melon, segar",908,37,6,4,78,10,4000
-Buah,"Menteng, segar",790,65,17,3,161,0,15000
-Buah,"Nanas palembang, segar",855,58,7,2,133,16,18000
-Buah,"Nanas, segar",889,40,6,3,99,6,10000
-Buah,"Nangka masak pohon, segar",700,106,12,3,276,37,5000
-Buah,"Pala, daging, segar",881,42,3,2,109,5,12000
-Buah,"Pepaya, segar",867,46,5,120,122,16,2500
-Buah,"Pisang ambon, segar",729,108,10,8,243,19,5000
+Buah,"Matoa, segar",765,90,12,1,211,5,5500
+Buah,"Melon, segar",908,37,6,4,78,10,4500
+Buah,"Menteng, segar",790,65,17,3,161,0,5000
+Buah,"Nanas palembang, segar",855,58,7,2,133,16,4000
+Buah,"Nanas, segar",889,40,6,3,99,6,4000
+Buah,"Nangka masak pohon, segar",700,106,12,3,276,37,4500
+Buah,"Pala, daging, segar",881,42,3,2,109,5,5000
+Buah,"Pepaya, segar",867,46,5,120,122,16,4000
+Buah,"Pisang ambon, segar",729,108,10,8,243,19,4000
 Buah,"Pisang angleng (pisang ampyang), segar",803,68,13,2,172,8,4000
-Buah,"Pisang ayam, segar",712,120,11,2,268,41,2500
-Buah,"Pisang gapi, segar",663,131,16,1,311,117,5000
-Buah,"Pisang goroho, segar",694,119,15,2,279,46,15000
-Buah,"Pisang hijau, segar",689,121,10,1,289,4,900
-Buah,"Pisang kayu, segar",744,100,14,5,236,26,4500
-Buah,"Pisang kepok, segar",719,109,8,5,263,57,2000
-Buah,"Pisang ketip, segar",634,145,11,3,345,66,5000
-Buah,"Pisang kidang, segar",754,96,10,2,225,6,2000
-Buah,"Pisang lampung, segar",721,99,13,2,256,43,5500
-Buah,"Pisang mas bali ampenan, segar",768,92,14,2,210,37,2500
-Buah,"Pisang mas bali kopang, segar",642,127,14,2,318,37,3500
-Buah,"Pisang mas, segar",642,127,14,2,336,14,2500
-Buah,"Pisang raja sereh, segar",693,108,13,3,282,7,3000
-Buah,"Pisang raja, segar",658,120,12,2,318,53,50000
-Buah,"Pisang rotan, segar",761,98,13,12,205,10,2200
-Buah,"Pisang talas, segar",710,113,12,2,267,44,1500
-Buah,Pisang tujuh bulan,759,94,6,2,225,37,1500
-Buah,"Pisang ua, segar",678,128,8,5,302,81,3500
-Buah,"Pisang uli, segar",618,134,11,5,355,14,15000
-Buah,"Purut, segar",811,76,41,11,152,17,20000
-Buah,"Rambutan binjai, segar",810,76,5,2,180,38,5000
-Buah,"Rambutan, segar",805,69,9,1,181,8,7000
-Buah,"Salak bali, segar",851,57,5,1,136,13,5500
-Buah,"Salak medan, segar",781,55,4,2,128,32,5000
-Buah,"Salak pondoh, segar",779,87,8,4,201,0,5000
-Buah,"Salak, segar",780,77,4,0,209,0,15000
-Buah,"Sawo duren, segar",873,64,10,31,80,8,4000
-Buah,"Sawo kecik, segar",738,111,9,23,216,10,4000
-Buah,"Sawo Manila, segar",755,92,5,11,224,95,500
-Buah,"Semangka, segar",921,28,5,2,69,4,2500
-Buah,"Sirsak, segar",817,65,10,3,163,32,6000
-Buah,"Sowa, segar",877,48,16,6,91,450,2000
-Buah,"Srikaya, segar",834,63,11,5,139,21,18000
-Buah,"Sukun muda, segar",694,119,14,2,281,14,2500
-Buah,"Sukun tua, segar",678,126,16,2,245,15,5000
-Buah,"Vigus, segar",880,44,24,1,83,0,2000
-Buah,"Wani, segar",812,74,8,3,171,31,10000
+Buah,"Pisang ayam, segar",712,120,11,2,268,41,4000
+Buah,"Pisang gapi, segar",663,131,16,1,311,117,4000
+Buah,"Pisang goroho, segar",694,119,15,2,279,46,4000
+Buah,"Pisang hijau, segar",689,121,10,1,289,4,4000
+Buah,"Pisang kayu, segar",744,100,14,5,236,26,4000
+Buah,"Pisang kepok, segar",719,109,8,5,263,57,4000
+Buah,"Pisang ketip, segar",634,145,11,3,345,66,4000
+Buah,"Pisang kidang, segar",754,96,10,2,225,6,4000
+Buah,"Pisang lampung, segar",721,99,13,2,256,43,4000
+Buah,"Pisang mas bali ampenan, segar",768,92,14,2,210,37,4000
+Buah,"Pisang mas bali kopang, segar",642,127,14,2,318,37,4000
+Buah,"Pisang mas, segar",642,127,14,2,336,14,4000
+Buah,"Pisang raja sereh, segar",693,108,13,3,282,7,4500
+Buah,"Pisang raja, segar",658,120,12,2,318,53,4500
+Buah,"Pisang rotan, segar",761,98,13,12,205,10,4500
+Buah,"Pisang talas, segar",710,113,12,2,267,44,4000
+Buah,Pisang tujuh bulan,759,94,6,2,225,37,4000
+Buah,"Pisang ua, segar",678,128,8,5,302,81,4000
+Buah,"Pisang uli, segar",618,134,11,5,355,14,4000
+Buah,"Purut, segar",811,76,41,11,152,17,5000
+Buah,"Rambutan binjai, segar",810,76,5,2,180,38,4500
+Buah,"Rambutan, segar",805,69,9,1,181,8,4000
+Buah,"Salak bali, segar",851,57,5,1,136,13,4500
+Buah,"Salak medan, segar",781,55,4,2,128,32,4500
+Buah,"Salak pondoh, segar",779,87,8,4,201,0,4500
+Buah,"Salak, segar",780,77,4,0,209,0,4500
+Buah,"Sawo duren, segar",873,64,10,31,80,8,4500
+Buah,"Sawo kecik, segar",738,111,9,23,216,10,4500
+Buah,"Sawo Manila, segar",755,92,5,11,224,95,4500
+Buah,"Semangka, segar",921,28,5,2,69,4,3500
+Buah,"Sirsak, segar",817,65,10,3,163,32,4500
+Buah,"Sowa, segar",877,48,16,6,91,450,5000
+Buah,"Srikaya, segar",834,63,11,5,139,21,5000
+Buah,"Sukun muda, segar",694,119,14,2,281,14,4000
+Buah,"Sukun tua, segar",678,126,16,2,245,15,4000
+Buah,"Vigus, segar",880,44,24,1,83,0,5000
+Buah,"Wani, segar",812,74,8,3,171,31,5000
+Kacang dan Olahan,"Kacang arab, kering",116,330,238,14,602,174,4500
+Kacang dan Olahan,"Kacang babi, kering",116,341,304,32,513,45,4000
+Kacang dan Olahan,"Kacang belimbi (kecipir), kering",104,400,344,169,341,107,4500
+Kacang dan Olahan,"Kacang beracun, segar",721,118,44,15,216,0,4500
+Kacang dan Olahan,"Kacang bogor, kering",100,370,160,60,650,263,4000
+Kacang dan Olahan,"Kacang bogor, segar",608,165,77,31,274,25,4000
+Kacang dan Olahan,"Kacang endel, biji, kering",140,331,250,10,580,236,4500
+Kacang dan Olahan,"Kacang ercis, segar",676,129,124,7,183,286,3500
+Kacang dan Olahan,"kacang galing, segar",120,336,231,17,595,0,3500
+Kacang dan Olahan,"Kacang gude, biji, kering",161,316,207,10,580,46,4500
+Kacang dan Olahan,"Kacang gude, biji, segar",703,114,70,6,208,44,4000
+Kacang dan Olahan,"Kacang hijau var, bakti, kering",74,350,171,18,707,57,4000
+Kacang dan Olahan,"Kacang hijau var, siwalik, kering",88,339,208,21,646,74,4000
+Kacang dan Olahan,"Kacang hijau, kering",155,323,229,15,568,75,4000
+Kacang dan Olahan,"Kacang hitam, kering",125,346,166,17,661,228,4500
+Kacang dan Olahan,"Kacang kapri, segar",743,98,67,4,177,62,3500
+Kacang dan Olahan,"Kacang kedelai, kering",127,381,404,167,249,32,3500
+Kacang dan Olahan,"Kacang kedelai, segar",200,286,302,156,301,29,3000
+Kacang dan Olahan,"Kacang kincai, kering",42,444,199,160,550,0,4000
+Kacang dan Olahan,"Kacang komak, segar",209,327,164,43,558,5,3500
+Kacang dan Olahan,"Kacang kuning, kering",117,355,170,25,660,151,4000
+Kacang dan Olahan,"Kacang lebui /iris, kering",118,346,165,15,666,373,4500
+Kacang dan Olahan,"Kacang mentega, kering",137,344,167,21,646,130,4500
+Kacang dan Olahan,"Kacang merah /banda, kering",130,350,139,30,669,263,4500
+Kacang dan Olahan,"Kacang merah tua, kering",123,280,167,16,632,46,4500
+Kacang dan Olahan,"Kacang merah, kering",177,314,221,11,562,40,4000
+Kacang dan Olahan,"Kacang merah, segar",572,171,110,22,280,21,4000
+Kacang dan Olahan,"Kacang mete/biji jambu monyet, segar",46,616,163,484,287,9,6000
+Kacang dan Olahan,"Kacang panjang, biji, kering",122,357,173,15,686,106,4000
+Kacang dan Olahan,Kacang tanah sangan,12,560,295,430,241,29,3500
+Kacang dan Olahan,Kacang tanah sangan tanpa selaput,26,559,269,442,236,26,3500
+Kacang dan Olahan,"Kacang tanah, kering",96,525,279,427,174,24,3500
+Kacang dan Olahan,"Kacang tolo / tunggak, kering",135,331,244,19,566,16,4000
+Kacang dan Olahan,"Kacang tunis, kering",105,351,122,12,729,295,4500
+Kacang dan Olahan,"Kacang uci, kering",99,358,234,24,606,74,4500
+Kacang dan Olahan,"Kacang urei, kering",128,354,128,18,693,261,4500
+Kacang dan Olahan,"Kenari banda, kering",130,616,139,562,137,0,5500
+Kacang dan Olahan,"Kenari, kering",30,657,150,660,130,0,5500
+Kacang dan Olahan,"Komak polong, segar",743,99,33,1,212,103,3500
+Kacang dan Olahan,"Koro andong, kering",108,356,205,41,616,70,4000
+Kacang dan Olahan,"Koro benguk, biji, kering",150,332,240,30,550,56,4000
+Kacang dan Olahan,"Koro kerupuk, biji, segar",672,125,83,7,221,22,3500
+Kacang dan Olahan,"Koro loke, biji, segar",886,33,27,2,79,35,3500
+Kacang dan Olahan,"Koro roay, kering",130,344,125,21,694,75,4000
+Kacang dan Olahan,"Koro wedus, biji, kering",118,338,222,15,610,58,4000
+Kacang dan Olahan,"Lamtoro biji, muda, segar",774,85,57,3,154,108,3000
+Kacang dan Olahan,"Lamtoro biji, tua, segar",614,148,106,5,262,170,3000
+Kacang dan Olahan,"Lamtoro var, gung tanpa kulit",102,367,464,54,325,26,3500
+Kacang dan Olahan,"Lamtoro var, lokal dengan kulit",135,336,238,12,597,154,3000
+Kacang dan Olahan,"Nangka, biji, segar",577,165,42,1,367,18,2500
+Kacang dan Olahan,"Saga merah terkupas, mentah",81,449,306,255,319,35,4000
+Kacang dan Olahan,"Wijen, mentah",58,568,193,511,181,36,5000
+Kacang dan Olahan,"Kacang belimbing, rebus",556,204,169,88,175,48,3500
+Kacang dan Olahan,"Kacang bogor, goreng",30,479,127,232,589,12,4000
+Kacang dan Olahan,"Kacang bogor, rebus",612,161,77,28,271,20,4000
+Kacang dan Olahan,"Kacang gude, rebus",615,147,90,5,275,34,4000
+Kacang dan Olahan,"kacang hijau, rebus",713,109,87,5,183,15,3500
+Kacang dan Olahan,"Kacang kedelai, goreng",96,521,322,377,229,76,3500
+Kacang dan Olahan,"Kacang kedelai, rebus",568,189,202,82,127,16,3500
+Kacang dan Olahan,"Kacang merah kering, rebus",596,158,103,9,282,26,4000
+Kacang dan Olahan,"Kacang merah segar, rebus",631,144,100,10,247,35,4000
+Kacang dan Olahan,"Kacang mete/biji jambu monyet, goreng",10,629,204,563,198,11,6500
+Kacang dan Olahan,Kacang tanah rebus dg kulit,402,360,135,312,128,0,3500
+Kacang dan Olahan,"Kacang tanah, goreng",25,564,255,444,255,28,3500
+Kacang dan Olahan,"Kacang tanah, rebus",621,220,106,180,80,10,3500
+Kacang dan Olahan,"Kacang tolo, rebus",644,138,107,11,226,9,4000
+Kacang dan Olahan,Ampas kacang hijau,706,96,37,6,191,27,2500
+Kacang dan Olahan,"Ampas tahu, mentah",841,67,50,21,81,41,2500
+Kacang dan Olahan,Ampas tahu kukus,825,75,41,21,107,51,2500
+Kacang dan Olahan,"Ampas tahu, kering",90,414,266,183,413,0,3000
+Kacang dan Olahan,Pepea oncom ampas tahu,809,76,52,18,106,22,3500
+Kacang dan Olahan,Bungkil biji karet,120,333,293,33,500,0,3000
+Kacang dan Olahan,Bungkil kacang tanah,140,336,374,130,305,0,3000
+Kacang dan Olahan,Bungkil kelapa,160,368,230,150,400,0,3000
+Kacang dan Olahan,Dodol banjarmasin,173,368,26,86,700,5,4000
+Kacang dan Olahan,Emping (kerupuk melinjo),130,345,120,15,715,0,5000
+Kacang dan Olahan,Emping komak,142,355,178,46,607,0,5000
+Kacang dan Olahan,Enting-enting gepuk hello kity,24,538,136,303,526,2,4500
+Kacang dan Olahan,Enting-enting gepuk kacang tanah,42,524,133,292,520,2,4500
+Kacang dan Olahan,Enting-enting wijen,37,565,182,384,368,19,4500
+Kacang dan Olahan,Geplak,296,350,14,144,536,18,4000
+Kacang dan Olahan,Geplak jahe,124,462,31,244,577,33,4500
+Kacang dan Olahan,Kacang atom,31,533,278,381,288,25,4000
+Kacang dan Olahan,Kacang goyang,83,516,147,311,444,0,4000
+Kacang dan Olahan,Kacang negara,31,480,184,191,585,117,4000
+Kacang dan Olahan,Kacang sukro,47,484,88,261,577,18,4000
+Kacang dan Olahan,Kacang tanah sari,21,561,255,438,260,22,4000
+Kacang dan Olahan,Keju kacang tanah (peanut butter),30,590,270,490,209,16,5500
+Kacang dan Olahan,Kembang tahu,108,380,489,138,233,0,3500
+Kacang dan Olahan,Kembang tahu rebus,798,90,107,40,47,0,3500
+Kacang dan Olahan,Keripik oncom,30,598,83,438,426,33,4000
+Kacang dan Olahan,Keripik tempe,33,581,121,406,417,22,4000
+Kacang dan Olahan,Keripik tempe abadi besar,45,556,158,371,398,35,4000
+Kacang dan Olahan,Keripik tempe abadi murni,32,542,403,424,116,22,4000
+Kacang dan Olahan,Keripik tempe abadi sedang,44,510,123,279,524,36,4000
+Kacang dan Olahan,Keripik tempe abadi telur,45,529,208,317,402,30,4000
+Kacang dan Olahan,Kerupik tempe abadi prima,48,540,167,339,420,22,4000
+Kacang dan Olahan,Kwaci,99,515,306,421,138,136,3500
+Kacang dan Olahan,Melinjo emping tebal goreng manis,56,439,100,164,657,0,5000
+Kacang dan Olahan,"Melinjo emping tebal, goreng asin",80,431,111,162,630,0,5000
+Kacang dan Olahan,Melinjo emping tipis goreng,33,485,115,245,591,0,5000
+Kacang dan Olahan,Moon tahu,799,128,80,100,13,2,3500
+Kacang dan Olahan,Oncom,570,187,130,60,226,0,3500
+Kacang dan Olahan,Oncom ampas kacang hijau,134,376,149,60,657,123,3500
+Kacang dan Olahan,Oncom kacang hijau + singkong,165,351,110,53,659,90,3500
+Kacang dan Olahan,Oncom kacang tanah pepes,650,132,127,38,137,31,3500
+Kacang dan Olahan,Rempeyek kacang tanah,39,513,175,325,443,17,4000
+Kacang dan Olahan,Rempeyek kacang tolo,61,451,112,202,597,18,4000
+Kacang dan Olahan,Rempeyek kacang uci,40,497,170,276,508,24,4000
+Kacang dan Olahan,Sayur lebui,839,64,21,6,125,57,3000
+Kacang dan Olahan,"Saridele, bubuk",30,344,300,200,430,62,4500
+Kacang dan Olahan,Susu kedelai,870,41,35,25,50,2,4000
+Kacang dan Olahan,"Tahu, mentah",822,80,109,47,8,1,3000
+Kacang dan Olahan,Tahu goreng,773,115,97,85,25,1,3500
+Kacang dan Olahan,Tahu telur,418,328,126,199,246,4,4000
+Kacang dan Olahan,Takwa,722,148,138,85,40,0,4000
+Kacang dan Olahan,Tauco,540,184,114,55,222,19,4000
+Kacang dan Olahan,"Tauco cap beruang, cake",114,347,74,52,676,32,4500
+Kacang dan Olahan,"Tauco cap DAS, cake",102,358,75,43,704,31,4500
+Kacang dan Olahan,Tauco cap meong,597,159,74,49,213,16,4500
+Kacang dan Olahan,Tauji cap singa,304,277,91,47,496,12,4500
+Kacang dan Olahan,Tempe bongkrek,725,119,44,35,183,0,3500
+Kacang dan Olahan,Tempe gembus P3G,819,73,57,13,103,42,3500
+Kacang dan Olahan,Tempe gembus yogya,807,76,68,7,106,53,3500
+Kacang dan Olahan,Tempe kacang babi,640,139,125,8,219,18,4000
+Kacang dan Olahan,Tempe kacang belimbing,582,212,175,100,129,29,4000
+Kacang dan Olahan,Tempe kedelai + jagung,706,143,120,55,114,19,4000
+Kacang dan Olahan,"Tempe kedelai murni, goreng",368,350,245,266,104,42,4000
+Kacang dan Olahan,"Tempe kedelai murni, mentah",553,201,208,88,135,14,3500
+Kacang dan Olahan,Tempe koro benguk,640,141,102,13,232,0,4000
+Kacang dan Olahan,Tempe lamtoro,668,128,107,5,213,71,3500
+Kacang dan Olahan,"Tempe lamtoro var, gung dengan kulit",651,146,117,23,196,76,3500
+Kacang dan Olahan,"Tempe lamtoro var, gung tanpa kulit",671,131,180,8,130,13,3500
+Kacang dan Olahan,Tempe pasar,683,150,140,77,91,14,3500
+Kacang dan Olahan,Tempe pasar goreng,429,336,200,280,78,34,4000
+Kacang dan Olahan,Tepung hunkwe (pati kacang ijo),100,364,45,10,835,161,4000
+Kacang dan Olahan,Tepung Jalejo,100,388,190,75,612,58,4000
+Kacang dan Olahan,Tepung kacang kedelai,90,347,359,206,299,58,4000
+Serealia dan Olahan,"Beras giling, mentah",120,357,84,17,771,2,2500
+Serealia dan Olahan,"Beras giling var pelita, mentah",114,369,95,14,771,4,2500
+Serealia dan Olahan,"Beras giling var rojolele, mentah",120,357,84,17,771,2,2500
+Serealia dan Olahan,"Beras hitam, mentah",129,351,80,13,769,201,3000
+Serealia dan Olahan,"Beras jagung kuning, kering, mentah",108,358,55,1,827,100,2000
+Serealia dan Olahan,"Beras jagung putih, kering, mentah",225,307,48,1,718,100,2000
+Serealia dan Olahan,"Beras ketan hitam tumbuk, mentah",137,360,80,23,745,10,3000
+Serealia dan Olahan,"Beras ketan putih tumbuk, mentah",129,361,74,8,784,4,2500
+Serealia dan Olahan,"Beras ladang, mentah",98,376,75,38,780,59,2500
+Serealia dan Olahan,"Beras menir, mentah",120,362,77,44,730,2,2000
+Serealia dan Olahan,Beras parboiled,100,353,68,6,800,5,2500
+Serealia dan Olahan,"Beras tumbuk, mentah",115,354,78,4,799,38,2500
+Serealia dan Olahan,"Beras tumbuk merah, mentah",146,352,73,9,762,8,2500
+Serealia dan Olahan,"Cantel, mentah",110,366,110,33,730,12,3000
+Serealia dan Olahan,"Jagung muda, kuning, mentah",618,147,51,7,315,13,2000
+Serealia dan Olahan,"Jagung kuning pipil, kering, mentah",115,366,98,73,691,22,2000
+Serealia dan Olahan,"Jagung pipil var, harapan, kering",113,367,62,51,762,26,2000
+Serealia dan Olahan,"Jagung pipil var, metro, kering",106,368,55,46,780,29,2000
+Serealia dan Olahan,"Jali, mentah",230,324,110,40,610,31,3000
+Serealia dan Olahan,"Jawawut, mentah",119,364,97,35,734,82,3000
+Serealia dan Olahan,"Jampang huma, mentah",117,350,62,14,782,17,3000
+Serealia dan Olahan,Nasi,567,180,30,3,398,2,2500
+Serealia dan Olahan,Nasi tim,710,120,24,4,260,5,3000
+Serealia dan Olahan,"Beras, tapai",755,99,17,3,224,0,2500
+Serealia dan Olahan,"Beras, tepung, mentah",120,353,70,5,800,24,3000
+Serealia dan Olahan,"Beras merah, Nasi",640,149,28,4,325,3,2500
+Serealia dan Olahan,"Bihun, mentah",129,348,47,1,821,12,3000
+Serealia dan Olahan,Bihun goreng instan,90,381,61,39,803,0,3500
+Serealia dan Olahan,"Bihun Jagung, mentah",113,354,5,3,874,30,3000
+Serealia dan Olahan,"Jagung nasi, mentah",110,357,88,5,795,62,2500
+Serealia dan Olahan,"Jagung muda, rebus",532,142,50,7,303,8,2500
+Serealia dan Olahan,"Jagung kuning, tepung",120,355,92,39,737,72,2500
+Serealia dan Olahan,"Jagung kuning pipil, rebus",637,154,38,35,284,7,2500
+Serealia dan Olahan,"Jagung, tepung putih",120,355,92,39,737,72,2500
+Serealia dan Olahan,"Ketan, ketupat",520,212,40,46,386,2,3000
+Serealia dan Olahan,"Ketan hitam, matang",569,181,40,12,373,3,3000
+Serealia dan Olahan,"Ketan hitam, tapai",502,166,38,10,344,3,3000
+Serealia dan Olahan,"Ketan putih, matang",607,163,30,4,357,2,2500
+Serealia dan Olahan,"Ketan putih, tapai",589,172,30,5,375,6,2500
+Serealia dan Olahan,"Maizena, tepung",140,341,3,0,850,70,2500
+Serealia dan Olahan,"Makaroni, mentah",117,353,87,4,787,49,3500
+Serealia dan Olahan,Mi basah,800,88,6,33,140,1,3000
+Serealia dan Olahan,Mi kering,106,339,100,17,63,4,3500
+Serealia dan Olahan,Misoa,100,345,85,22,780,5,3500
+Serealia dan Olahan,Roti putih,400,248,80,12,500,91,3500
+Serealia dan Olahan,Tepung terigu,118,333,90,10,772,3,2500
+Umbi-umbian dan Olahan,"Arrowroot, segar",735,102,10,2,241,17,3000
+Umbi-umbian dan Olahan,"Batatas gembili, segar",767,76,11,9,160,42,3000
+Umbi-umbian dan Olahan,"Batatas kelapa, ubi, segar",761,89,11,1,210,40,3000
+Umbi-umbian dan Olahan,"Belitung, talas, segar",631,145,12,4,342,15,3000
+Umbi-umbian dan Olahan,"Bengkuang, segar",851,59,14,2,128,10,2500
+Umbi-umbian dan Olahan,"Bentul (Komba), talas, segar",758,98,16,7,209,7,3000
+Umbi-umbian dan Olahan,"Gadeng/Gadung, kering",202,322,24,6,766,0,3500
+Umbi-umbian dan Olahan,"Gadung, ubi, segar",744,100,9,3,235,21,3000
+Umbi-umbian dan Olahan,"Ganyong, segar",799,77,6,2,184,8,3000
+Umbi-umbian dan Olahan,"Gembili, ubi, segar",664,131,11,2,313,11,3000
+Umbi-umbian dan Olahan,"Hofa/Ubi hutan, segar",679,127,12,5,295,34,3000
+Umbi-umbian dan Olahan,"Kaburan, ubi, segar",665,133,10,2,322,7,3000
+Umbi-umbian dan Olahan,"Kentang, segar",834,62,21,2,135,5,2500
+Umbi-umbian dan Olahan,"Kentang hitam, segar",640,142,9,4,337,54,3000
+Umbi-umbian dan Olahan,"Keribang, ubi, segar",670,137,13,11,298,6,3000
+Umbi-umbian dan Olahan,"Ketela pohon/ singkong, segar",614,154,10,3,368,9,2500
+Umbi-umbian dan Olahan,Lepok/Ubi rumput,553,181,28,12,398,107,3000
+Umbi-umbian dan Olahan,"Sagu aren, kering",119,355,6,11,856,3,3500
+Umbi-umbian dan Olahan,"Sagu aren, segar",425,231,6,2,566,32,3000
+Umbi-umbian dan Olahan,Sagu kasbi segar,425,230,6,2,565,30,3000
+Umbi-umbian dan Olahan,Sagu lempeng,135,347,9,3,852,47,3500
+Umbi-umbian dan Olahan,"Sagu singkong, kering",120,362,5,3,869,0,3000
+Umbi-umbian dan Olahan,"Sente, talas, segar",140,353,7,2,847,66,3000
+Umbi-umbian dan Olahan,"Suweg, talas, segar",801,74,14,1,172,14,3000
+Umbi-umbian dan Olahan,"Talas bogor, segar",724,108,14,4,250,9,3000
+Umbi-umbian dan Olahan,"Talas pontianak, segar",600,163,23,5,364,7,3000
+Umbi-umbian dan Olahan,"Talas viqueque, segar",706,115,18,5,259,86,3000
+Umbi-umbian dan Olahan,"Ubi jalar, kuning, segar",726,119,5,4,251,42,3000
+Umbi-umbian dan Olahan,"Ubi jalar manis, segar",784,83,15,2,188,6,3000
+Umbi-umbian dan Olahan,"Ubi jalar merah, segar",619,151,16,3,354,7,3000
+Umbi-umbian dan Olahan,"Ubi jalar putih, segar",778,88,4,4,206,40,3000
+Umbi-umbian dan Olahan,Ubi jalar tinta/ kemayung,725,108,5,4,256,42,3000
+Umbi-umbian dan Olahan,"Umbi Uwi, segar",697,120,28,5,823,26,3000
+Umbi-umbian dan Olahan,Kerupuk cumi goreng,34,444,69,146,713,50,4000
+Umbi-umbian dan Olahan,Kerupuk kemplang (ikan) mentah,142,325,18,4,785,45,3500
+Umbi-umbian dan Olahan,Kerupuk kemplang goreng,58,504,56,281,571,3,4000
+Umbi-umbian dan Olahan,Kerupuk kemplang panggang,94,356,97,11,769,10,4000
+Umbi-umbian dan Olahan,Kerupuk mie kuning goreng,72,476,1,211,713,42,3500
+Umbi-umbian dan Olahan,Kerupuk udang goreng,44,477,47,205,685,50,4000
+Umbi-umbian dan Olahan,Kue bangket,161,338,15,12,803,0,3500
+Umbi-umbian dan Olahan,Kue putu singkong,442,217,12,5,532,24,3500
+Umbi-umbian dan Olahan,Lanting getuk,42,422,9,108,804,14,3500
+Umbi-umbian dan Olahan,Mi golosor,829,71,2,8,159,1,3500
+Umbi-umbian dan Olahan,Mie Bendo,115,353,3,0,880,24,3500
+Umbi-umbian dan Olahan,Mie Sagu,528,190,2,4,465,14,3500
+Umbi-umbian dan Olahan,Ongol-ongol sagu,753,111,3,27,212,3,3500
+Umbi-umbian dan Olahan,Oyek,126,351,9,9,849,43,3000
+Umbi-umbian dan Olahan,Papeda,848,61,2,1,149,5,3000
+Umbi-umbian dan Olahan,Rasbi (Beras Ubi),111,394,22,88,766,68,3000
+Umbi-umbian dan Olahan,Rasi (Beras Singkong),126,350,9,4,857,144,3000
+Umbi-umbian dan Olahan,Sagu forno,315,291,5,40,634,0,3500
+Umbi-umbian dan Olahan,Sagu Lemak (Kue Sagon),43,452,28,148,768,11,3500
+Umbi-umbian dan Olahan,Sagu manis,326,287,5,39,624,0,3500
+Umbi-umbian dan Olahan,Sagu Rendang,82,364,1,2,905,19,3500
+Umbi-umbian dan Olahan,Sagu sinole,220,354,8,83,689,0,3500
+Umbi-umbian dan Olahan,Tepung Arrowroot,136,355,7,2,852,4,4000
+Umbi-umbian dan Olahan,Tepung Ganyong,136,353,8,17,836,7,4000
+Umbi-umbian dan Olahan,Tepung Gaplek,130,345,24,4,831,67,3500
+Umbi-umbian dan Olahan,"Tepung kentang, kering",130,347,3,1,856,4,4000
+Umbi-umbian dan Olahan,Tepung Mocaf,119,350,12,6,850,60,4000
+Umbi-umbian dan Olahan,Tepung Sente,153,326,40,4,767,85,4000
+Umbi-umbian dan Olahan,Tepung singkong/ Tapioka,91,363,11,5,882,9,3500
+Umbi-umbian dan Olahan,Tepung Tales Beneng,122,332,57,6,761,122,4000
+Umbi-umbian dan Olahan,Tepung Ubi Ungu,94,354,28,6,844,129,4000
+Susu,"Kepala susu - krim, segar",725,204,26,200,40,0,3000
+Susu,Susu ibu - ASI,881,62,15,32,70,0,0
+Susu,"Susu kambing, segar",859,64,43,23,66,0,2500
+Susu,"Susu kerbau, segar",738,160,63,120,71,0,2000
+Susu,"Susu kuda, segar",910,40,20,11,54,0,3000
+Susu,"Susu sapi, segar",883,61,32,35,43,0,1800
+Susu,"Susu asam untuk bayi, bubuk",25,418,190,90,655,0,5000
+Susu,Susu bubuk,35,513,246,300,362,0,4500
+Susu,Susu kental manis,250,343,82,100,550,0,2500
+Susu,Susu kental tak manis,737,138,70,79,99,0,2500
+Susu,"Susu skim, bubuk",35,359,356,10,520,0,5500
+Susu,"Susu skim, segar",905,36,35,1,51,0,2500
+Susu,"Yoghurt, segar",880,52,33,25,40,0,4000

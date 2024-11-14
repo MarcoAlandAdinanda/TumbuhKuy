@@ -1,4 +1,5 @@
 from flask import Blueprint, jsonify, request
+import numpy as np
 from .apiUtils import set_scr_path
 set_scr_path()  # set system path to scripts directory
 
@@ -32,5 +33,22 @@ def optimized_ingredients():
 
     optimized_ingredients: list = ingredient_gen.optimized_ingredients
 
+    message: dict = {"optimized_ingredients": optimized_ingredients, # list of optimized ingredients
+                     "optim_total_nutrition": convert_to_serializable(ingredient_gen.optim_total_nutrition), # dictionary of sum of optimized ingredients
+                     "user_threshold": ingredient_gen.user_threshold} # dictionary of user threshold
     # Return JSON response
-    return jsonify(message=optimized_ingredients)
+    return jsonify(optimized=message)
+
+def convert_to_serializable(obj):
+    """Convert numpy int64 and other non-serializable types to Python-native types."""
+    if isinstance(obj, np.integer):
+        return int(obj)
+    elif isinstance(obj, np.floating):
+        return float(obj)
+    elif isinstance(obj, dict):
+        return {k: convert_to_serializable(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_to_serializable(i) for i in obj]
+    elif isinstance(obj, tuple):
+        return tuple(convert_to_serializable(i) for i in obj)
+    return obj
